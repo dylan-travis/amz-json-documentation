@@ -1,0 +1,202 @@
+# Amazon JSON Schema Documentation
+
+This documentation provides detailed information about Amazon product schemas. Each schema defines the structure and requirements for different product types in the Amazon catalog.
+
+## Available Product Schemas
+
+### A
+- [ADVENT_CALENDAR](./ADVENT_CALENDAR/ADVENT_CALENDAR_documentation.md)
+- [ANIMAL_CAGE](./ANIMAL_CAGE/ANIMAL_CAGE_documentation.md)
+- [ANIMAL_SHELTER](./ANIMAL_SHELTER/ANIMAL_SHELTER_documentation.md)
+- [ANTI_FATIGUE_FLOOR_MAT](./ANTI_FATIGUE_FLOOR_MAT/ANTI_FATIGUE_FLOOR_MAT_documentation.md)
+- [ARTIFICIAL_TREE](./ARTIFICIAL_TREE/ARTIFICIAL_TREE_documentation.md)
+- [ART_EASEL](./ART_EASEL/ART_EASEL_documentation.md)
+
+### B
+- [BAKEWARE_SET](./BAKEWARE_SET/BAKEWARE_SET_documentation.md)
+- [BAKING_PAN](./BAKING_PAN/BAKING_PAN_documentation.md)
+- [BALANCE_BOARD](./BALANCE_BOARD/BALANCE_BOARD_documentation.md)
+- [BARBECUE_GRILL](./BARBECUE_GRILL/BARBECUE_GRILL_documentation.md)
+- [BASKETBALL_HOOP](./BASKETBALL_HOOP/BASKETBALL_HOOP_documentation.md)
+- [BASKET](./BASKET/BASKET_documentation.md)
+- [BED](./BED/BED_documentation.md)
+- [BED_FRAME](./BED_FRAME/BED_FRAME_documentation.md)
+- [BENCH](./BENCH/BENCH_documentation.md)
+- [BICYCLE_TRAILER](./BICYCLE_TRAILER/BICYCLE_TRAILER_documentation.md)
+- [BIRDBATH](./BIRDBATH/BIRDBATH_documentation.md)
+- [BLOWER_INFLATED_DECORATION](./BLOWER_INFLATED_DECORATION/BLOWER_INFLATED_DECORATION_documentation.md)
+- [BOARD_GAME](./BOARD_GAME/BOARD_GAME_documentation.md)
+- [BOTTLE_OPENER](./BOTTLE_OPENER/BOTTLE_OPENER_documentation.md)
+- [BOTTLE_RACK](./BOTTLE_RACK/BOTTLE_RACK_documentation.md)
+
+### C
+- [CABINET](./CABINET/CABINET_documentation.md)
+- [CANDLE_HOLDER](./CANDLE_HOLDER/CANDLE_HOLDER_documentation.md)
+- [CASSEROLES](./CASSEROLES/CASSEROLES_documentation.md)
+- [CHAIR](./CHAIR/CHAIR_documentation.md)
+- [CLIMBING_PLANT_SUPPORT_STRUCTURE](./CLIMBING_PLANT_SUPPORT_STRUCTURE/CLIMBING_PLANT_SUPPORT_STRUCTURE_documentation.md)
+- [CLOTHES_RACK](./CLOTHES_RACK/CLOTHES_RACK_documentation.md)
+- [COLLAPSIBLE_PLAY_STRUCTURE](./COLLAPSIBLE_PLAY_STRUCTURE/COLLAPSIBLE_PLAY_STRUCTURE_documentation.md)
+- [COOKWARE](./COOKWARE/COOKWARE_documentation.md)
+- [COUNTERTOP_OVEN](./COUNTERTOP_OVEN/COUNTERTOP_OVEN_documentation.md)
+
+### D
+- [DARTBOARD](./DARTBOARD/DARTBOARD_documentation.md)
+- [DECORATIVE_SIGNAGE](./DECORATIVE_SIGNAGE/DECORATIVE_SIGNAGE_documentation.md)
+- [DESK](./DESK/DESK_documentation.md)
+- [DUTCH_OVENS](./DUTCH_OVENS/DUTCH_OVENS_documentation.md)
+
+### E
+- [ELECTRIC_LIGHT](./ELECTRIC_LIGHT/ELECTRIC_LIGHT_documentation.md)
+- [ELLIPTICAL_TRAINER](./ELLIPTICAL_TRAINER/ELLIPTICAL_TRAINER_documentation.md)
+- [EXERCISE_MAT](./EXERCISE_MAT/EXERCISE_MAT_documentation.md)
+- [EXERCISE_STEP_PLATFORM](./EXERCISE_STEP_PLATFORM/EXERCISE_STEP_PLATFORM_documentation.md)
+
+### F
+- [FENCE_PANEL](./FENCE_PANEL/FENCE_PANEL_documentation.md)
+- [FIGURINE](./FIGURINE/FIGURINE_documentation.md)
+- [FIRE_PIT](./FIRE_PIT/FIRE_PIT_documentation.md)
+- [FIRE_SCREEN](./FIRE_SCREEN/FIRE_SCREEN_documentation.md)
+- [FITNESS_BENCH](./FITNESS_BENCH/FITNESS_BENCH_documentation.md)
+- [FLAT_SCREEN_DISPLAY_MOUNT](./FLAT_SCREEN_DISPLAY_MOUNT/FLAT_SCREEN_DISPLAY_MOUNT_documentation.md)
+- [FOOD_BLENDER](./FOOD_BLENDER/FOOD_BLENDER_documentation.md)
+- [FOOD_MIXER](./FOOD_MIXER/FOOD_MIXER_documentation.md)
+- [FOUNTAIN](./FOUNTAIN/FOUNTAIN_documentation.md)
+- [FREESTANDING_SHELTER](./FREESTANDING_SHELTER/FREESTANDING_SHELTER_documentation.md)
+- [FRESH_CUT_FLOWERS_PLANTS](./FRESH_CUT_FLOWERS_PLANTS/FRESH_CUT_FLOWERS_PLANTS_documentation.md)
+- [FURNITURE](./FURNITURE/FURNITURE_documentation.md)
+- [FURNITURE_CART](./FURNITURE_CART/FURNITURE_CART_documentation.md)
+
+### G
+- [GAMES](./GAMES/GAMES_documentation.md)
+- [GARDEN_EDGING](./GARDEN_EDGING/GARDEN_EDGING_documentation.md)
+- [GARLAND](./GARLAND/GARLAND_documentation.md)
+- [GREENHOUSE](./GREENHOUSE/GREENHOUSE_documentation.md)
+- [GUITARS](./GUITARS/GUITARS_documentation.md)
+
+### H
+- [HAMMOCK](./HAMMOCK/HAMMOCK_documentation.md)
+- [HAMMOCK_STAND](./HAMMOCK_STAND/HAMMOCK_STAND_documentation.md)
+- [HANGING_ORNAMENT](./HANGING_ORNAMENT/HANGING_ORNAMENT_documentation.md)
+- [HOME](./HOME/HOME_documentation.md)
+- [HOME_FURNITURE_AND_DECOR](./HOME_FURNITURE_AND_DECOR/HOME_FURNITURE_AND_DECOR_documentation.md)
+- [HOME_MIRROR](./HOME_MIRROR/HOME_MIRROR_documentation.md)
+
+### I
+- [ICE_CHEST](./ICE_CHEST/ICE_CHEST_documentation.md)
+- [ITEM_CONTAINER](./ITEM_CONTAINER/ITEM_CONTAINER_documentation.md)
+- [ITEM_STAND](./ITEM_STAND/ITEM_STAND_documentation.md)
+
+### J
+- [JEWELRY_STORAGE](./JEWELRY_STORAGE/JEWELRY_STORAGE_documentation.md)
+
+### K
+- [KETTLEBELL](./KETTLEBELL/KETTLEBELL_documentation.md)
+- [KEYBOARD_INSTRUMENTS](./KEYBOARD_INSTRUMENTS/KEYBOARD_INSTRUMENTS_documentation.md)
+- [KICK_SCOOTER](./KICK_SCOOTER/KICK_SCOOTER_documentation.md)
+- [KITCHEN](./KITCHEN/KITCHEN_documentation.md)
+
+### L
+- [LADDER](./LADDER/LADDER_documentation.md)
+- [LAUNDRY_HAMPER](./LAUNDRY_HAMPER/LAUNDRY_HAMPER_documentation.md)
+- [LIGHTED_OUTDOOR_DISPLAY](./LIGHTED_OUTDOOR_DISPLAY/LIGHTED_OUTDOOR_DISPLAY_documentation.md)
+- [LIGHT_FIXTURE](./LIGHT_FIXTURE/LIGHT_FIXTURE_documentation.md)
+- [LITTER_BOX](./LITTER_BOX/LITTER_BOX_documentation.md)
+
+### M
+- [MAKEUP_VANITY](./MAKEUP_VANITY/MAKEUP_VANITY_documentation.md)
+- [MARBLE_TRACK](./MARBLE_TRACK/MARBLE_TRACK_documentation.md)
+- [MARKING_PEN](./MARKING_PEN/MARKING_PEN_documentation.md)
+- [MASSAGER](./MASSAGER/MASSAGER_documentation.md)
+- [MATTRESS](./MATTRESS/MATTRESS_documentation.md)
+- [MICROSCOPES](./MICROSCOPES/MICROSCOPES_documentation.md)
+- [MINIATURE_TOY_BUILDING](./MINIATURE_TOY_BUILDING/MINIATURE_TOY_BUILDING_documentation.md)
+- [MODEL](./MODEL/MODEL_documentation.md)
+- [MUSICAL_INSTRUMENTS](./MUSICAL_INSTRUMENTS/MUSICAL_INSTRUMENTS_documentation.md)
+- [MUSICAL_INSTRUMENT_TOY](./MUSICAL_INSTRUMENT_TOY/MUSICAL_INSTRUMENT_TOY_documentation.md)
+
+### N
+- [NETTING_COVER](./NETTING_COVER/NETTING_COVER_documentation.md)
+- [NON_RIDING_TOY_VEHICLE](./NON_RIDING_TOY_VEHICLE/NON_RIDING_TOY_VEHICLE_documentation.md)
+
+### O
+- [OTTOMAN](./OTTOMAN/OTTOMAN_documentation.md)
+- [OUTDOOR_LIVING](./OUTDOOR_LIVING/OUTDOOR_LIVING_documentation.md)
+
+### P
+- [PET_ACTIVITY_STRUCTURE](./PET_ACTIVITY_STRUCTURE/PET_ACTIVITY_STRUCTURE_documentation.md)
+- [PET_BED_MAT](./PET_BED_MAT/PET_BED_MAT_documentation.md)
+- [PET_SUPPLIES](./PET_SUPPLIES/PET_SUPPLIES_documentation.md)
+- [PILLOW](./PILLOW/PILLOW_documentation.md)
+- [PLANTER](./PLANTER/PLANTER_documentation.md)
+- [PLAY_WORKSTATION](./PLAY_WORKSTATION/PLAY_WORKSTATION_documentation.md)
+- [PORTABLE_FREESTANDING_SHELTER](./PORTABLE_FREESTANDING_SHELTER/PORTABLE_FREESTANDING_SHELTER_documentation.md)
+- [PRETEND_PLAY_TOY](./PRETEND_PLAY_TOY/PRETEND_PLAY_TOY_documentation.md)
+- [PRODUCT](./PRODUCT/PRODUCT_documentation.md)
+- [PULL_UP_BAR](./PULL_UP_BAR/PULL_UP_BAR_documentation.md)
+
+### R
+- [RIDE_ON_TOY](./RIDE_ON_TOY/RIDE_ON_TOY_documentation.md)
+- [ROOM_DIVIDER](./ROOM_DIVIDER/ROOM_DIVIDER_documentation.md)
+
+### S
+- [SANDBOX](./SANDBOX/SANDBOX_documentation.md)
+- [SCIENCE_FUNDAMENTALS_KIT](./SCIENCE_FUNDAMENTALS_KIT/SCIENCE_FUNDAMENTALS_KIT_documentation.md)
+- [SCULPTURE](./SCULPTURE/SCULPTURE_documentation.md)
+- [SEWING_MACHINE](./SEWING_MACHINE/SEWING_MACHINE_documentation.md)
+- [SHELF](./SHELF/SHELF_documentation.md)
+- [SHOVEL_SPADE](./SHOVEL_SPADE/SHOVEL_SPADE_documentation.md)
+- [SLED](./SLED/SLED_documentation.md)
+- [SLEEPING_MAT](./SLEEPING_MAT/SLEEPING_MAT_documentation.md)
+- [SNOW_GLOBE](./SNOW_GLOBE/SNOW_GLOBE_documentation.md)
+- [SOFA](./SOFA/SOFA_documentation.md)
+- [SPORTING_GOODS](./SPORTING_GOODS/SPORTING_GOODS_documentation.md)
+- [SPORT_TABLE_GAME](./SPORT_TABLE_GAME/SPORT_TABLE_GAME_documentation.md)
+- [STOOL_SEATING](./STOOL_SEATING/STOOL_SEATING_documentation.md)
+- [STORAGE_BOX](./STORAGE_BOX/STORAGE_BOX_documentation.md)
+- [STORAGE_HOOK](./STORAGE_HOOK/STORAGE_HOOK_documentation.md)
+- [STORAGE_RACK](./STORAGE_RACK/STORAGE_RACK_documentation.md)
+- [STRINGED_INSTRUMENTS](./STRINGED_INSTRUMENTS/STRINGED_INSTRUMENTS_documentation.md)
+- [SUITCASE](./SUITCASE/SUITCASE_documentation.md)
+- [SWING](./SWING/SWING_documentation.md)
+
+### T
+- [TABLE](./TABLE/TABLE_documentation.md)
+- [TARGET_TOSSING_GAME](./TARGET_TOSSING_GAME/TARGET_TOSSING_GAME_documentation.md)
+- [TEMPORARY_GATE](./TEMPORARY_GATE/TEMPORARY_GATE_documentation.md)
+- [TEMPORARY_HANGER_HOOK](./TEMPORARY_HANGER_HOOK/TEMPORARY_HANGER_HOOK_documentation.md)
+- [TOYS_AND_GAMES](./TOYS_AND_GAMES/TOYS_AND_GAMES_documentation.md)
+- [TOY_BUILDING_BLOCK](./TOY_BUILDING_BLOCK/TOY_BUILDING_BLOCK_documentation.md)
+- [TOY_FIGURE](./TOY_FIGURE/TOY_FIGURE_documentation.md)
+- [TOY_FIGURE_PLAYSET](./TOY_FIGURE_PLAYSET/TOY_FIGURE_PLAYSET_documentation.md)
+- [TOY_GUN](./TOY_GUN/TOY_GUN_documentation.md)
+- [TOY_STROLLER](./TOY_STROLLER/TOY_STROLLER_documentation.md)
+- [TOY_VEHICLE_SET](./TOY_VEHICLE_SET/TOY_VEHICLE_SET_documentation.md)
+- [TREE_SKIRT](./TREE_SKIRT/TREE_SKIRT_documentation.md)
+
+### U
+- [UMBRELLA](./UMBRELLA/UMBRELLA_documentation.md)
+- [UTILITY_CART_WAGON](./UTILITY_CART_WAGON/UTILITY_CART_WAGON_documentation.md)
+
+### V
+- [VACUUM_SEALER_MACHINE](./VACUUM_SEALER_MACHINE/VACUUM_SEALER_MACHINE_documentation.md)
+
+### W
+- [WATERING_CAN](./WATERING_CAN/WATERING_CAN_documentation.md)
+- [WILDLIFE_FEEDER](./WILDLIFE_FEEDER/WILDLIFE_FEEDER_documentation.md)
+- [WORKBENCH](./WORKBENCH/WORKBENCH_documentation.md)
+- [WREATH](./WREATH/WREATH_documentation.md)
+
+## About This Documentation
+
+This documentation is automatically generated from Amazon's JSON schema files. Each product type has its own documentation page that includes:
+
+- Required fields
+- Conditionally required fields
+- Property details
+- Allowed values
+- Examples
+
+## How to Use
+
+Click on any product type link above to view the detailed schema documentation for that product type.
