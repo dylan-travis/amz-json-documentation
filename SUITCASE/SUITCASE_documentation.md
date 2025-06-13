@@ -216,7 +216,7 @@
 | `subject_character` | array | Provide the character or theme depicted on the item, representing its visual design or motif. |
 | `special_size_type` | array | Specify the special size type for the item |
 | `color` | array | Provide the color of the product |
-| `size` | array | An alphanumeric string detailing the size of the product that a customer would select when purchasing.  E.g. Small, Medium, Large.  For items that do not vary by size, simply state ìOne Sizeî. |
+| `size` | array | An alphanumeric string detailing the size of the product that a customer would select when purchasing.  E.g. Small, Medium, Large.  For items that do not vary by size, simply state ‚ÄúOne Size‚Äù. |
 | `part_number` | array | For most products, this will be identical to the model number; however, some manufacturers distinguish part number from model number. |
 | `item_shape` | array | Specify the shape of the item |
 | `theme` | array | Provide the primary high-level subject, concept, topic, motif, or idea of an item. |
@@ -263,10 +263,10 @@
 | `pesticide_marking` | array | Provide any pesticide marking on the item or packaging. |
 | `fcc_radio_frequency_emission_compliance` | array | Provide details on compliance to FCC regulations for products that may emit radio frequencies. |
 | `regulatory_compliance_certification` | array | Provide any regulation that is relevant to the product as well as any required regulatory identications such as certification numbers. |
-| `dsa_responsible_party_address` | array | Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If youíve already submitted this Responsible Personís information in the past, make sure you use the same email or URL. |
+| `dsa_responsible_party_address` | array | Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If you‚Äôve already submitted this Responsible Person‚Äôs information in the past, make sure you use the same email or URL. |
 | `compliance_media` | array | Provide information on the product documents you want to display on the product detail page to comply with the General Product Safety Regulation (GPSR). Alternatively, you can upload images under the PS01-PS06 variants in the Image Manager. |
-| `gpsr_safety_attestation` | array | Check ìyesî if your product doesnít have any warning and safety information, as it can be used safely and as intended without it. |
-| `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If youíve already submitted this manufacturerís information in the past, make sure you use the same email or URL. |
+| `gpsr_safety_attestation` | array | Check ‚Äúyes‚Äù if your product doesn‚Äôt have any warning and safety information, as it can be used safely and as intended without it. |
+| `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you‚Äôve already submitted this manufacturer‚Äôs information in the past, make sure you use the same email or URL. |
 | `ships_globally` | array | Provide whether the item can be shipped globally by Amazon  |
 | `compliance_construction_type` | array | Provide the items construction method, for compliance purposes. |
 | `compliance_is_handmade` | array | Provide whether or not the item has been made by hand, for compliance purposes. |
@@ -750,7 +750,7 @@ Provide the color of the product
 
 ### size
 
-An alphanumeric string detailing the size of the product that a customer would select when purchasing.  E.g. Small, Medium, Large.  For items that do not vary by size, simply state ìOne Sizeî.
+An alphanumeric string detailing the size of the product that a customer would select when purchasing.  E.g. Small, Medium, Large.  For items that do not vary by size, simply state ‚ÄúOne Size‚Äù.
 
 **Type:** array
 
@@ -1213,7 +1213,7 @@ F2345G234`
 
 ### dsa_responsible_party_address
 
-Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If youíve already submitted this Responsible Personís information in the past, make sure you use the same email or URL.
+Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If you‚Äôve already submitted this Responsible Person‚Äôs information in the past, make sure you use the same email or URL.
 
 **Type:** array
 
@@ -1237,7 +1237,7 @@ Provide information on the product documents you want to display on the product 
 
 ### gpsr_safety_attestation
 
-Check ìyesî if your product doesnít have any warning and safety information, as it can be used safely and as intended without it.
+Check ‚Äúyes‚Äù if your product doesn‚Äôt have any warning and safety information, as it can be used safely and as intended without it.
 
 **Type:** array
 
@@ -1247,7 +1247,7 @@ Check ìyesî if your product doesnít have any warning and safety information, as 
 
 ### gpsr_manufacturer_reference
 
-Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If youíve already submitted this manufacturerís information in the past, make sure you use the same email or URL.
+Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you‚Äôve already submitted this manufacturer‚Äôs information in the past, make sure you use the same email or URL.
 
 **Type:** array
 

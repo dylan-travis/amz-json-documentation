@@ -161,7 +161,7 @@
 | `merchant_suggested_asin` | array | Provide an ASIN for your product if one exists. If a value is not provided, the system will attempt a match based on the External Product ID. |
 | `supplier_declared_has_product_identifier_exemption` | array | Please specify if the product is exempt from supplier declared external product identifiers. |
 | `item_type_keyword` | array | What is the item that you are selling? |
-| `package_level` | array | Provide the package level of the item. Choose ìUnitî when package hierarchy is not provided or applicable. Provide one ìUnitî item for every package hierarchy. |
+| `package_level` | array | Provide the package level of the item. Choose ‚ÄúUnit‚Äù when package hierarchy is not provided or applicable. Provide one ‚ÄúUnit‚Äù item for every package hierarchy. |
 | `package_contains_sku` | array | Provide the SKU and quantity of the child items contained in the next package level. |
 | `model_number` | array | Provide the manufacturer 's model number for the item |
 | `model_name` | array | Specify the model name of the product as defined by the manufacturer or brand excluding item type, color, brand or size |
@@ -215,8 +215,8 @@
 | `maximum_stride_length` | array | Provide the maximum stride length |
 | `maximum_weight_recommendation` | array | Provide the maximum weight the item can safely support, the highest user weight it is designed to handle. |
 | `number_of_resistance_levels` | array | Provide the number of difficulty settings the item offers for adjusting the workout intensity. |
-| `space_efficiency` | array | Select an appropriate value to indicate the productís space efficiency |
-| `heart_rate_sensor_type` | array | Select the method by which a personís heart rate can be monitored when using this product |
+| `space_efficiency` | array | Select an appropriate value to indicate the product‚Äôs space efficiency |
+| `heart_rate_sensor_type` | array | Select the method by which a person‚Äôs heart rate can be monitored when using this product |
 | `exercise_machine_arm_type` | array | Select the type of arm component that is present on the exercise machine |
 | `item_depth_width_height` | array | The depth and width of the item in ready to use condition. Ready to use is defined as out of packaging and displayed as used for example fully rolled out for a rug or blanket. |
 | `parentage_level` | array | Specify whether a SKU is a parent or child |
@@ -239,10 +239,10 @@
 | `california_proposition_65` | array | Provide the Proposition 65 warning information applicable to your product, if any. By removing or changing the information you certify that the previously provided warning information is no longer legally required |
 | `fcc_radio_frequency_emission_compliance` | array | Provide details on compliance to FCC regulations for products that may emit radio frequencies. |
 | `regulatory_compliance_certification` | array | Provide any regulation that is relevant to the product as well as any required regulatory identications such as certification numbers. |
-| `dsa_responsible_party_address` | array | Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If youíve already submitted this Responsible Personís information in the past, make sure you use the same email or URL. |
+| `dsa_responsible_party_address` | array | Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If you‚Äôve already submitted this Responsible Person‚Äôs information in the past, make sure you use the same email or URL. |
 | `compliance_media` | array | Provide information on the product documents you want to display on the product detail page to comply with the General Product Safety Regulation (GPSR). Alternatively, you can upload images under the PS01-PS06 variants in the Image Manager. |
-| `gpsr_safety_attestation` | array | Check ìyesî if your product doesnít have any warning and safety information, as it can be used safely and as intended without it. |
-| `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If youíve already submitted this manufacturerís information in the past, make sure you use the same email or URL. |
+| `gpsr_safety_attestation` | array | Check ‚Äúyes‚Äù if your product doesn‚Äôt have any warning and safety information, as it can be used safely and as intended without it. |
+| `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you‚Äôve already submitted this manufacturer‚Äôs information in the past, make sure you use the same email or URL. |
 | `ships_globally` | array | Provide whether the item can be shipped globally by Amazon  |
 | `ghs_chemical_h_code` | array | Provide the GHS chemical hazard codes for the chemical substance/mixture in order to display warnings to customers. |
 | `main_product_image_locator` | array | The attribute indicates the Main Product Image Locator of the product |
@@ -331,7 +331,7 @@ What is the item that you are selling?
 
 ### package_level
 
-Provide the package level of the item. Choose ìUnitî when package hierarchy is not provided or applicable. Provide one ìUnitî item for every package hierarchy.
+Provide the package level of the item. Choose ‚ÄúUnit‚Äù when package hierarchy is not provided or applicable. Provide one ‚ÄúUnit‚Äù item for every package hierarchy.
 
 **Type:** array
 
@@ -867,7 +867,7 @@ Provide the number of difficulty settings the item offers for adjusting the work
 
 ### space_efficiency
 
-Select an appropriate value to indicate the productís space efficiency
+Select an appropriate value to indicate the product‚Äôs space efficiency
 
 **Type:** array
 
@@ -877,7 +877,7 @@ Select an appropriate value to indicate the productís space efficiency
 
 ### heart_rate_sensor_type
 
-Select the method by which a personís heart rate can be monitored when using this product
+Select the method by which a person‚Äôs heart rate can be monitored when using this product
 
 **Type:** array
 
@@ -1096,7 +1096,7 @@ F2345G234`
 
 ### dsa_responsible_party_address
 
-Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If youíve already submitted this Responsible Personís information in the past, make sure you use the same email or URL.
+Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If you‚Äôve already submitted this Responsible Person‚Äôs information in the past, make sure you use the same email or URL.
 
 **Type:** array
 
@@ -1120,7 +1120,7 @@ Provide information on the product documents you want to display on the product 
 
 ### gpsr_safety_attestation
 
-Check ìyesî if your product doesnít have any warning and safety information, as it can be used safely and as intended without it.
+Check ‚Äúyes‚Äù if your product doesn‚Äôt have any warning and safety information, as it can be used safely and as intended without it.
 
 **Type:** array
 
@@ -1130,7 +1130,7 @@ Check ìyesî if your product doesnít have any warning and safety information, as 
 
 ### gpsr_manufacturer_reference
 
-Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If youíve already submitted this manufacturerís information in the past, make sure you use the same email or URL.
+Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you‚Äôve already submitted this manufacturer‚Äôs information in the past, make sure you use the same email or URL.
 
 **Type:** array
 

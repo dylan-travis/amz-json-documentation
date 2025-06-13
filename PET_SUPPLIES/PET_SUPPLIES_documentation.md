@@ -177,7 +177,7 @@
 | `merchant_suggested_asin` | array | Provide an ASIN for your product if one exists. If a value is not provided, the system will attempt a match based on the External Product ID. |
 | `supplier_declared_has_product_identifier_exemption` | array | Please specify if the product is exempt from supplier declared external product identifiers. |
 | `item_type_keyword` | array | What is the item that you are selling? |
-| `package_level` | array | Provide the package level of the item. Choose ìUnitî when package hierarchy is not provided or applicable. Provide one ìUnitî item for every package hierarchy. |
+| `package_level` | array | Provide the package level of the item. Choose ‚ÄúUnit‚Äù when package hierarchy is not provided or applicable. Provide one ‚ÄúUnit‚Äù item for every package hierarchy. |
 | `package_contains_sku` | array | Provide the SKU and quantity of the child items contained in the next package level. |
 | `target_audience_keyword` | array | For whom is the product intended? |
 | `model_number` | array | Indicate the model number of the product, as assigned by the manufacturer, here. Note that this should be distinct from Model Name and Manufacturer Part Number. |
@@ -262,8 +262,8 @@
 | `regulatory_compliance_certification` | array | Provide any regulation that is relevant to the product as well as any required regulatory identications such as certification numbers. |
 | `dsa_responsible_party_address` | array | Provide the email address or URL for the EU Responsible Person, representing the product in compliance with EU regulations. |
 | `compliance_media` | array | Provide information on the product documents you want to display on the product detail page to comply with the General Product Safety Regulation (GPSR). Alternatively, you can upload images under the PS01-PS06 variants in the Image Manager. |
-| `gpsr_safety_attestation` | array | Check ìyesî if your product doesnít have any warning and safety information, as it can be used safely and as intended without it. |
-| `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If youíve already submitted this manufacturerís information in the past, make sure you use the same email or URL. |
+| `gpsr_safety_attestation` | array | Check ‚Äúyes‚Äù if your product doesn‚Äôt have any warning and safety information, as it can be used safely and as intended without it. |
+| `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you‚Äôve already submitted this manufacturer‚Äôs information in the past, make sure you use the same email or URL. |
 | `ships_globally` | array | Provide whether the item can be shipped globally by Amazon  |
 | `ghs_chemical_h_code` | array | Provide the GHS chemical hazard codes for the chemical substance/mixture in order to display warnings to customers. |
 | `main_product_image_locator` | array | The attribute indicates the Main Product Image Locator of the product |
@@ -354,7 +354,7 @@ What is the item that you are selling?
 
 ### package_level
 
-Provide the package level of the item. Choose ìUnitî when package hierarchy is not provided or applicable. Provide one ìUnitî item for every package hierarchy.
+Provide the package level of the item. Choose ‚ÄúUnit‚Äù when package hierarchy is not provided or applicable. Provide one ‚ÄúUnit‚Äù item for every package hierarchy.
 
 **Type:** array
 
@@ -1173,7 +1173,7 @@ Provide information on the product documents you want to display on the product 
 
 ### gpsr_safety_attestation
 
-Check ìyesî if your product doesnít have any warning and safety information, as it can be used safely and as intended without it.
+Check ‚Äúyes‚Äù if your product doesn‚Äôt have any warning and safety information, as it can be used safely and as intended without it.
 
 **Type:** array
 
@@ -1183,7 +1183,7 @@ Check ìyesî if your product doesnít have any warning and safety information, as 
 
 ### gpsr_manufacturer_reference
 
-Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If youíve already submitted this manufacturerís information in the past, make sure you use the same email or URL.
+Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you‚Äôve already submitted this manufacturer‚Äôs information in the past, make sure you use the same email or URL.
 
 **Type:** array
 

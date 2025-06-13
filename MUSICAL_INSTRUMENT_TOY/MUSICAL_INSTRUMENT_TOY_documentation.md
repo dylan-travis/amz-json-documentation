@@ -182,7 +182,7 @@
 | `merchant_suggested_asin` | array | Provide an ASIN for your product if one exists. If a value is not provided, the system will attempt a match based on the External Product ID. |
 | `supplier_declared_has_product_identifier_exemption` | array | Please specify if the product is exempt from supplier declared external product identifiers. |
 | `item_type_keyword` | array | What is the item that you are selling? |
-| `package_level` | array | Provide the package level of the item. Choose ìUnitî when package hierarchy is not provided or applicable. Provide one ìUnitî item for every package hierarchy. |
+| `package_level` | array | Provide the package level of the item. Choose ‚ÄúUnit‚Äù when package hierarchy is not provided or applicable. Provide one ‚ÄúUnit‚Äù item for every package hierarchy. |
 | `package_contains_sku` | array | Provide the SKU and quantity of the child items contained in the next package level. |
 | `target_audience_keyword` | array | For whom is the product intended? |
 | `model_number` | array | Product code assigned by the manufacturer; can be numbers, letters, or both |
@@ -260,13 +260,13 @@
 | `item_weight` | array | Provide the weight of the item (not including the packaging) |
 | `country_as_labeled` | array | Select the country that is listed on the product's label |
 | `california_proposition_65` | array | Provide the Proposition 65 warning information applicable to your product, if any. By removing or changing the information you certify that the previously provided warning information is no longer legally required |
-| `cpsia_cautionary_statement` | array | You must select any applicable warning for choking hazards of childrenís toys and games, or "no_warning_applicable". To verify warnings, contact the manufacturer or check the packaging. |
+| `cpsia_cautionary_statement` | array | You must select any applicable warning for choking hazards of children‚Äôs toys and games, or "no_warning_applicable". To verify warnings, contact the manufacturer or check the packaging. |
 | `fcc_radio_frequency_emission_compliance` | array | Provide details on compliance to FCC regulations for products that may emit radio frequencies. |
 | `regulatory_compliance_certification` | array | Provide any regulation that is relevant to the product as well as any required regulatory identications such as certification numbers. |
 | `dsa_responsible_party_address` | array | Provide the email address or URL for the EU Responsible Person, representing the product in compliance with EU regulations. |
 | `compliance_media` | array | Provide information on the product documents you want to display on the product detail page to comply with the General Product Safety Regulation (GPSR). Alternatively, you can upload images under the PS01-PS06 variants in the Image Manager. |
-| `gpsr_safety_attestation` | array | Check ìyesî if your product doesnít have any warning and safety information, as it can be used safely and as intended without it. |
-| `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If youíve already submitted this manufacturerís information in the past, make sure you use the same email or URL. |
+| `gpsr_safety_attestation` | array | Check ‚Äúyes‚Äù if your product doesn‚Äôt have any warning and safety information, as it can be used safely and as intended without it. |
+| `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you‚Äôve already submitted this manufacturer‚Äôs information in the past, make sure you use the same email or URL. |
 | `contains_pfas` | array | Provide whether the item contains PFAS (perfluoroalkyl or polyfluoroalkyl substances), a common but complex group of synthetic chemicals. |
 | `has_multiple_battery_powered_components` | array | Provide whether the item consits of more than one battery powered components. |
 | `ships_globally` | array | Provide whether the item can be shipped globally by Amazon  |
@@ -275,7 +275,7 @@
 | `compliance_operation_mode` | array | Provide the source of energy used by the item; for compliance purposes. Non-battery refers to a wired connection to an outlet. |
 | `compliance_is_handmade` | array | Provide whether or not the item has been made by hand, for compliance purposes. |
 | `compliance_instrument_type` | array | Provide the type of instrument the item is imitating, for compliance purposes. |
-| `battery_contains_free_unabsorbed_liquid` | array | Provides certification that your battery meets transport regulations for free-flowing liquid: no unabsorbed liquid at 55∞C & no leakage. |
+| `battery_contains_free_unabsorbed_liquid` | array | Provides certification that your battery meets transport regulations for free-flowing liquid: no unabsorbed liquid at 55¬∞C & no leakage. |
 | `is_battery_non_spillable` | array | Provides certification confirming your battery meets transport regulations for non-spillable status, including vibration and pressure tests |
 | `non_lithium_battery_packaging` | array | Provide "in equipment" for batteries installed in devices, "with equipment" for those packed separately with the device, and "only" for standalone batteries. |
 | `has_replaceable_battery` | array | Provide whether the item's battery is replaceable. |
@@ -370,7 +370,7 @@ What is the item that you are selling?
 
 ### package_level
 
-Provide the package level of the item. Choose ìUnitî when package hierarchy is not provided or applicable. Provide one ìUnitî item for every package hierarchy.
+Provide the package level of the item. Choose ‚ÄúUnit‚Äù when package hierarchy is not provided or applicable. Provide one ‚ÄúUnit‚Äù item for every package hierarchy.
 
 **Type:** array
 
@@ -1114,7 +1114,7 @@ Provide the Proposition 65 warning information applicable to your product, if an
 
 ### cpsia_cautionary_statement
 
-You must select any applicable warning for choking hazards of childrenís toys and games, or "no_warning_applicable". To verify warnings, contact the manufacturer or check the packaging.
+You must select any applicable warning for choking hazards of children‚Äôs toys and games, or "no_warning_applicable". To verify warnings, contact the manufacturer or check the packaging.
 
 **Type:** array
 
@@ -1165,7 +1165,7 @@ Provide information on the product documents you want to display on the product 
 
 ### gpsr_safety_attestation
 
-Check ìyesî if your product doesnít have any warning and safety information, as it can be used safely and as intended without it.
+Check ‚Äúyes‚Äù if your product doesn‚Äôt have any warning and safety information, as it can be used safely and as intended without it.
 
 **Type:** array
 
@@ -1175,7 +1175,7 @@ Check ìyesî if your product doesnít have any warning and safety information, as 
 
 ### gpsr_manufacturer_reference
 
-Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If youíve already submitted this manufacturerís information in the past, make sure you use the same email or URL.
+Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you‚Äôve already submitted this manufacturer‚Äôs information in the past, make sure you use the same email or URL.
 
 **Type:** array
 
@@ -1265,7 +1265,7 @@ Provide the type of instrument the item is imitating, for compliance purposes.
 
 ### battery_contains_free_unabsorbed_liquid
 
-Provides certification that your battery meets transport regulations for free-flowing liquid: no unabsorbed liquid at 55∞C & no leakage.
+Provides certification that your battery meets transport regulations for free-flowing liquid: no unabsorbed liquid at 55¬∞C & no leakage.
 
 **Type:** array
 
