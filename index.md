@@ -1,5 +1,3 @@
-# Amazon JSON Schema Documentation
-
 This documentation provides detailed information about Amazon product schemas. Each schema defines the structure and requirements for different product types in the Amazon catalog.
 
 ## Available Product Schemas
