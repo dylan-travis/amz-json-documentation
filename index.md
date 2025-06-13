@@ -1,5 +1,19 @@
 This documentation provides detailed information about Amazon product schemas. Each schema defines the structure and requirements for different product types in the Amazon catalog.
 
+## About This Documentation
+
+This documentation is automatically generated from Amazon's JSON schema files. Each product type has its own documentation page that includes:
+
+- Required fields
+- Conditionally required fields
+- Property details
+- Allowed values
+- Examples
+
+## How to Use
+
+Click on any product type link below to view the detailed schema documentation for that product type.
+
 ## Available Product Schemas
 
 ### A
@@ -184,17 +198,3 @@ This documentation provides detailed information about Amazon product schemas. E
 - [WILDLIFE_FEEDER](./WILDLIFE_FEEDER/WILDLIFE_FEEDER_documentation.md)
 - [WORKBENCH](./WORKBENCH/WORKBENCH_documentation.md)
 - [WREATH](./WREATH/WREATH_documentation.md)
-
-## About This Documentation
-
-This documentation is automatically generated from Amazon's JSON schema files. Each product type has its own documentation page that includes:
-
-- Required fields
-- Conditionally required fields
-- Property details
-- Allowed values
-- Examples
-
-## How to Use
-
-Click on any product type link above to view the detailed schema documentation for that product type.
