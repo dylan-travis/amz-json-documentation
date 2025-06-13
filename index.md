@@ -1,18 +1,6 @@
+# Amazon JSON Schema Documentation
+
 This documentation provides detailed information about Amazon product schemas. Each schema defines the structure and requirements for different product types in the Amazon catalog.
-
-## About This Documentation
-
-This documentation is automatically generated from Amazon's JSON schema files. Each product type has its own documentation page that includes:
-
-- Required fields
-- Conditionally required fields
-- Property details
-- Allowed values
-- Examples
-
-## How to Use
-
-Click on any product type link below to view the detailed schema documentation for that product type.
 
 ## Available Product Schemas
 
@@ -29,8 +17,8 @@ Click on any product type link below to view the detailed schema documentation f
 - [BAKING_PAN](./BAKING_PAN/BAKING_PAN_documentation.md)
 - [BALANCE_BOARD](./BALANCE_BOARD/BALANCE_BOARD_documentation.md)
 - [BARBECUE_GRILL](./BARBECUE_GRILL/BARBECUE_GRILL_documentation.md)
-- [BASKETBALL_HOOP](./BASKETBALL_HOOP/BASKETBALL_HOOP_documentation.md)
 - [BASKET](./BASKET/BASKET_documentation.md)
+- [BASKETBALL_HOOP](./BASKETBALL_HOOP/BASKETBALL_HOOP_documentation.md)
 - [BED](./BED/BED_documentation.md)
 - [BED_FRAME](./BED_FRAME/BED_FRAME_documentation.md)
 - [BENCH](./BENCH/BENCH_documentation.md)
@@ -56,6 +44,7 @@ Click on any product type link below to view the detailed schema documentation f
 - [DARTBOARD](./DARTBOARD/DARTBOARD_documentation.md)
 - [DECORATIVE_SIGNAGE](./DECORATIVE_SIGNAGE/DECORATIVE_SIGNAGE_documentation.md)
 - [DESK](./DESK/DESK_documentation.md)
+- [DRESSER](./DRESSER/DRESSER_documentation.md)
 - [DUTCH_OVENS](./DUTCH_OVENS/DUTCH_OVENS_documentation.md)
 
 ### E
@@ -166,6 +155,7 @@ Click on any product type link below to view the detailed schema documentation f
 - [SPORT_TABLE_GAME](./SPORT_TABLE_GAME/SPORT_TABLE_GAME_documentation.md)
 - [STOOL_SEATING](./STOOL_SEATING/STOOL_SEATING_documentation.md)
 - [STORAGE_BOX](./STORAGE_BOX/STORAGE_BOX_documentation.md)
+- [STORAGE_DRAWER](./STORAGE_DRAWER/STORAGE_DRAWER_documentation.md)
 - [STORAGE_HOOK](./STORAGE_HOOK/STORAGE_HOOK_documentation.md)
 - [STORAGE_RACK](./STORAGE_RACK/STORAGE_RACK_documentation.md)
 - [STRINGED_INSTRUMENTS](./STRINGED_INSTRUMENTS/STRINGED_INSTRUMENTS_documentation.md)
@@ -198,3 +188,17 @@ Click on any product type link below to view the detailed schema documentation f
 - [WILDLIFE_FEEDER](./WILDLIFE_FEEDER/WILDLIFE_FEEDER_documentation.md)
 - [WORKBENCH](./WORKBENCH/WORKBENCH_documentation.md)
 - [WREATH](./WREATH/WREATH_documentation.md)
+
+## About This Documentation
+
+This documentation is automatically generated from Amazon's JSON schema files. Each product type has its own documentation page that includes:
+
+- Required fields
+- Conditionally required fields
+- Property details
+- Allowed values
+- Examples
+
+## How to Use
+
+Click on any product type link above to view the detailed schema documentation for that product type.

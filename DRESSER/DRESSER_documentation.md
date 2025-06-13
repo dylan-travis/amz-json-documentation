@@ -1,4 +1,4 @@
-# WATERING_CAN Schema Documentation
+# DRESSER Schema Documentation
 
 **Schema Version:** https://schemas.amazon.com/selling-partners/definitions/product-types/meta-schema/v1
 
@@ -33,8 +33,8 @@
 | `bullet_point[item].language_tag` | Required in bullet_point[item] object |
 | `bullet_point[item].value` | Required in bullet_point[item] object |
 | `california_proposition_65[item].compliance_type` | Required in california_proposition_65[item] object |
-| `capacity[item].unit` | Required in capacity[item] object |
-| `capacity[item].value` | Required in capacity[item] object |
+| `care_instructions[item].language_tag` | Required in care_instructions[item] object |
+| `care_instructions[item].value` | Required in care_instructions[item] object |
 | `child_parent_sku_relationship[item].child_relationship_type` | Required in child_parent_sku_relationship[item] object |
 | `color[item].language_tag` | Required in color[item] object |
 | `compliance_media[item].content_language` | Required in compliance_media[item] object |
@@ -43,18 +43,43 @@
 | `condition_note[item].language_tag` | Required in condition_note[item] object |
 | `condition_note[item].value` | Required in condition_note[item] object |
 | `condition_type[item].value` | Required in condition_type[item] object |
+| `configuration[item].language_tag` | Required in configuration[item] object |
+| `configuration[item].value` | Required in configuration[item] object |
+| `contains_pfas[item].value` | Required in contains_pfas[item] object |
 | `country_of_origin[item].value` | Required in country_of_origin[item] object |
-| `customer_package_type[item].language_tag` | Required in customer_package_type[item] object |
-| `customer_package_type[item].value` | Required in customer_package_type[item] object |
+| `drawer_interior_dimensions[item].depth` | Required in drawer_interior_dimensions[item] object |
+| `drawer_interior_dimensions[item].depth.unit` | Required in drawer_interior_dimensions[item].depth object |
+| `drawer_interior_dimensions[item].depth.unit` | Required in drawer_interior_dimensions[item].depth object |
+| `drawer_interior_dimensions[item].depth.value` | Required in drawer_interior_dimensions[item].depth object |
+| `drawer_interior_dimensions[item].depth.value` | Required in drawer_interior_dimensions[item].depth object |
+| `drawer_interior_dimensions[item].height` | Required in drawer_interior_dimensions[item] object |
+| `drawer_interior_dimensions[item].height.unit` | Required in drawer_interior_dimensions[item].height object |
+| `drawer_interior_dimensions[item].height.unit` | Required in drawer_interior_dimensions[item].height object |
+| `drawer_interior_dimensions[item].height.value` | Required in drawer_interior_dimensions[item].height object |
+| `drawer_interior_dimensions[item].height.value` | Required in drawer_interior_dimensions[item].height object |
+| `drawer_interior_dimensions[item].type` | Required in drawer_interior_dimensions[item] object |
+| `drawer_interior_dimensions[item].width` | Required in drawer_interior_dimensions[item] object |
+| `drawer_interior_dimensions[item].width.unit` | Required in drawer_interior_dimensions[item].width object |
+| `drawer_interior_dimensions[item].width.unit` | Required in drawer_interior_dimensions[item].width object |
+| `drawer_interior_dimensions[item].width.value` | Required in drawer_interior_dimensions[item].width object |
+| `drawer_interior_dimensions[item].width.value` | Required in drawer_interior_dimensions[item].width object |
+| `drawer_type[item].language_tag` | Required in drawer_type[item] object |
+| `drawer_type[item].value` | Required in drawer_type[item] object |
+| `drawer_weight_capacity[item].type` | Required in drawer_weight_capacity[item] object |
+| `drawer_weight_capacity[item].unit_decimal` | Required in drawer_weight_capacity[item] object |
+| `drawer_weight_capacity[item].unit_decimal.unit` | Required in drawer_weight_capacity[item].unit_decimal object |
+| `drawer_weight_capacity[item].unit_decimal.unit` | Required in drawer_weight_capacity[item].unit_decimal object |
+| `drawer_weight_capacity[item].unit_decimal.value` | Required in drawer_weight_capacity[item].unit_decimal object |
+| `drawer_weight_capacity[item].unit_decimal.value` | Required in drawer_weight_capacity[item].unit_decimal object |
 | `dsa_responsible_party_address[item].value` | Required in dsa_responsible_party_address[item] object |
-| `edition[item].language_tag` | Required in edition[item] object |
-| `edition[item].value` | Required in edition[item] object |
 | `externally_assigned_product_identifier[item].type` | Required in externally_assigned_product_identifier[item] object |
 | `externally_assigned_product_identifier[item].value` | Required in externally_assigned_product_identifier[item] object |
 | `fcc_radio_frequency_emission_compliance[item].registration_status` | Required in fcc_radio_frequency_emission_compliance[item] object |
-| `flavor[item].language_tag` | Required in flavor[item] object |
-| `flavor[item].value` | Required in flavor[item] object |
+| `finish_type[item].language_tag` | Required in finish_type[item] object |
+| `finish_type[item].value` | Required in finish_type[item] object |
 | `fulfillment_availability[item].fulfillment_channel_code` | Required in fulfillment_availability[item] object |
+| `furniture_finish[item].language_tag` | Required in furniture_finish[item] object |
+| `furniture_finish[item].value` | Required in furniture_finish[item] object |
 | `generic_keyword[item].language_tag` | Required in generic_keyword[item] object |
 | `generic_keyword[item].value` | Required in generic_keyword[item] object |
 | `ghs[item].classification[item].class` | Required in ghs[item].classification[item] object |
@@ -64,7 +89,10 @@
 | `handmade_classification[item].value` | Required in handmade_classification[item] object |
 | `hazmat[item].aspect` | Required in hazmat[item] object |
 | `hazmat[item].value` | Required in hazmat[item] object |
-| `indoor_outdoor_usage[item].value` | Required in indoor_outdoor_usage[item] object |
+| `included_components[item].language_tag` | Required in included_components[item] object |
+| `included_components[item].value` | Required in included_components[item] object |
+| `is_assembly_required[item].value` | Required in is_assembly_required[item] object |
+| `is_fragile[item].value` | Required in is_fragile[item] object |
 | `item_depth_width_height[item].depth` | Required in item_depth_width_height[item] object |
 | `item_depth_width_height[item].depth.unit` | Required in item_depth_width_height[item].depth object |
 | `item_depth_width_height[item].depth.unit` | Required in item_depth_width_height[item].depth object |
@@ -80,21 +108,6 @@
 | `item_depth_width_height[item].width.unit` | Required in item_depth_width_height[item].width object |
 | `item_depth_width_height[item].width.value` | Required in item_depth_width_height[item].width object |
 | `item_depth_width_height[item].width.value` | Required in item_depth_width_height[item].width object |
-| `item_dimensions[item].height` | Required in item_dimensions[item] object |
-| `item_dimensions[item].height.unit` | Required in item_dimensions[item].height object |
-| `item_dimensions[item].height.unit` | Required in item_dimensions[item].height object |
-| `item_dimensions[item].height.value` | Required in item_dimensions[item].height object |
-| `item_dimensions[item].height.value` | Required in item_dimensions[item].height object |
-| `item_dimensions[item].length` | Required in item_dimensions[item] object |
-| `item_dimensions[item].length.unit` | Required in item_dimensions[item].length object |
-| `item_dimensions[item].length.unit` | Required in item_dimensions[item].length object |
-| `item_dimensions[item].length.value` | Required in item_dimensions[item].length object |
-| `item_dimensions[item].length.value` | Required in item_dimensions[item].length object |
-| `item_dimensions[item].width` | Required in item_dimensions[item] object |
-| `item_dimensions[item].width.unit` | Required in item_dimensions[item].width object |
-| `item_dimensions[item].width.unit` | Required in item_dimensions[item].width object |
-| `item_dimensions[item].width.value` | Required in item_dimensions[item].width object |
-| `item_dimensions[item].width.value` | Required in item_dimensions[item].width object |
 | `item_display_dimensions[item].depth.unit` | Required in item_display_dimensions[item].depth object |
 | `item_display_dimensions[item].depth.unit` | Required in item_display_dimensions[item].depth object |
 | `item_display_dimensions[item].depth.value` | Required in item_display_dimensions[item].depth object |
@@ -115,6 +128,10 @@
 | `item_display_dimensions[item].width.unit` | Required in item_display_dimensions[item].width object |
 | `item_display_dimensions[item].width.value` | Required in item_display_dimensions[item].width object |
 | `item_display_dimensions[item].width.value` | Required in item_display_dimensions[item].width object |
+| `item_display_weight[item].unit` | Required in item_display_weight[item] object |
+| `item_display_weight[item].value` | Required in item_display_weight[item] object |
+| `item_form[item].language_tag` | Required in item_form[item] object |
+| `item_form[item].value` | Required in item_form[item] object |
 | `item_name[item].language_tag` | Required in item_name[item] object |
 | `item_name[item].value` | Required in item_name[item] object |
 | `item_package_dimensions[item].height` | Required in item_package_dimensions[item] object |
@@ -140,10 +157,8 @@
 | `item_type_keyword[item].value` | Required in item_type_keyword[item] object |
 | `item_weight[item].unit` | Required in item_weight[item] object |
 | `item_weight[item].value` | Required in item_weight[item] object |
-| `legal_compliance_certifications[item].certification_status` | Required in legal_compliance_certifications[item] object |
-| `legal_compliance_certifications[item].language_tag` | Required in legal_compliance_certifications[item] object |
-| `legal_compliance_certifications[item].regulatory_organization_name` | Required in legal_compliance_certifications[item] object |
-| `legal_compliance_certifications[item].value` | Required in legal_compliance_certifications[item] object |
+| `league_name[item].language_tag` | Required in league_name[item] object |
+| `league_name[item].value` | Required in league_name[item] object |
 | `length_range[item].language_tag` | Required in length_range[item] object |
 | `length_range[item].value` | Required in length_range[item] object |
 | `list_price[item].currency` | Required in list_price[item] object |
@@ -163,37 +178,29 @@
 | `manufacturer[item].language_tag` | Required in manufacturer[item] object |
 | `manufacturer[item].value` | Required in manufacturer[item] object |
 | `map_policy[item].value` | Required in map_policy[item] object |
-| `master_pack_dimensions[item].height` | Required in master_pack_dimensions[item] object |
-| `master_pack_dimensions[item].height.unit` | Required in master_pack_dimensions[item].height object |
-| `master_pack_dimensions[item].height.unit` | Required in master_pack_dimensions[item].height object |
-| `master_pack_dimensions[item].height.value` | Required in master_pack_dimensions[item].height object |
-| `master_pack_dimensions[item].height.value` | Required in master_pack_dimensions[item].height object |
-| `master_pack_dimensions[item].length` | Required in master_pack_dimensions[item] object |
-| `master_pack_dimensions[item].length.unit` | Required in master_pack_dimensions[item].length object |
-| `master_pack_dimensions[item].length.unit` | Required in master_pack_dimensions[item].length object |
-| `master_pack_dimensions[item].length.value` | Required in master_pack_dimensions[item].length object |
-| `master_pack_dimensions[item].length.value` | Required in master_pack_dimensions[item].length object |
-| `master_pack_dimensions[item].width` | Required in master_pack_dimensions[item] object |
-| `master_pack_dimensions[item].width.unit` | Required in master_pack_dimensions[item].width object |
-| `master_pack_dimensions[item].width.unit` | Required in master_pack_dimensions[item].width object |
-| `master_pack_dimensions[item].width.value` | Required in master_pack_dimensions[item].width object |
-| `master_pack_dimensions[item].width.value` | Required in master_pack_dimensions[item].width object |
-| `master_pack_weight[item].unit` | Required in master_pack_weight[item] object |
-| `master_pack_weight[item].value` | Required in master_pack_weight[item] object |
+| `master_pack_layers_per_pallet_quantity[item].value` | Required in master_pack_layers_per_pallet_quantity[item] object |
+| `master_packs_per_layer_quantity[item].value` | Required in master_packs_per_layer_quantity[item] object |
 | `material[item].language_tag` | Required in material[item] object |
 | `material[item].value` | Required in material[item] object |
 | `max_order_quantity[item].value` | Required in max_order_quantity[item] object |
 | `merchant_release_date[item].value` | Required in merchant_release_date[item] object |
 | `merchant_shipping_group[item].value` | Required in merchant_shipping_group[item] object |
 | `merchant_suggested_asin[item].value` | Required in merchant_suggested_asin[item] object |
+| `minimum_required_door_width[item].unit` | Required in minimum_required_door_width[item] object |
+| `minimum_required_door_width[item].value` | Required in minimum_required_door_width[item] object |
 | `model_name[item].language_tag` | Required in model_name[item] object |
 | `model_name[item].value` | Required in model_name[item] object |
 | `model_number[item].value` | Required in model_number[item] object |
+| `mounting_type[item].language_tag` | Required in mounting_type[item] object |
+| `mounting_type[item].value` | Required in mounting_type[item] object |
 | `num_batteries[item].quantity` | Required in num_batteries[item] object |
 | `num_batteries[item].type` | Required in num_batteries[item] object |
+| `number_of_drawers[item].value` | Required in number_of_drawers[item] object |
 | `number_of_items[item].value` | Required in number_of_items[item] object |
 | `number_of_lithium_ion_cells[item].value` | Required in number_of_lithium_ion_cells[item] object |
 | `number_of_lithium_metal_cells[item].value` | Required in number_of_lithium_metal_cells[item] object |
+| `number_of_packs[item].value` | Required in number_of_packs[item] object |
+| `number_of_pieces[item].value` | Required in number_of_pieces[item] object |
 | `other_offer_image_locator_1[item].media_location` | Required in other_offer_image_locator_1[item] object |
 | `other_offer_image_locator_2[item].media_location` | Required in other_offer_image_locator_2[item] object |
 | `other_offer_image_locator_3[item].media_location` | Required in other_offer_image_locator_3[item] object |
@@ -257,27 +264,37 @@
 | `purchasable_offer[item].quantity_discount_plan[item].schedule[item].levels[item].value` | Required in purchasable_offer[item].quantity_discount_plan[item].schedule[item].levels[item] object |
 | `regulatory_compliance_certification[item].regulation_type` | Required in regulatory_compliance_certification[item] object |
 | `regulatory_compliance_certification[item].value` | Required in regulatory_compliance_certification[item] object |
-| `required_product_compliance_certificate[item].value` | Required in required_product_compliance_certificate[item] object |
+| `room_type[item].language_tag` | Required in room_type[item] object |
+| `room_type[item].value` | Required in room_type[item] object |
 | `safety_data_sheet_url[item].language_tag` | Required in safety_data_sheet_url[item] object |
 | `safety_data_sheet_url[item].value` | Required in safety_data_sheet_url[item] object |
+| `safety_warning[item].language_tag` | Required in safety_warning[item] object |
+| `safety_warning[item].value` | Required in safety_warning[item] object |
 | `scent[item].language_tag` | Required in scent[item] object |
 | `scent[item].value` | Required in scent[item] object |
 | `ships_globally[item].value` | Required in ships_globally[item] object |
 | `size[item].language_tag` | Required in size[item] object |
 | `size[item].value` | Required in size[item] object |
 | `skip_offer[item].value` | Required in skip_offer[item] object |
+| `special_feature[item].language_tag` | Required in special_feature[item] object |
+| `special_feature[item].value` | Required in special_feature[item] object |
 | `style[item].language_tag` | Required in style[item] object |
 | `style[item].value` | Required in style[item] object |
 | `supplier_declared_dg_hz_regulation[item].value` | Required in supplier_declared_dg_hz_regulation[item] object |
 | `supplier_declared_has_product_identifier_exemption[item].value` | Required in supplier_declared_has_product_identifier_exemption[item] object |
 | `swatch_product_image_locator[item].media_location` | Required in swatch_product_image_locator[item] object |
+| `target_audience[item].language_tag` | Required in target_audience[item] object |
+| `target_audience[item].value` | Required in target_audience[item] object |
+| `team_name[item].language_tag` | Required in team_name[item] object |
+| `team_name[item].value` | Required in team_name[item] object |
 | `unit_count[item].type.language_tag` | Required in unit_count[item].type object |
 | `unit_count[item].type.language_tag` | Required in unit_count[item].type object |
 | `unit_count[item].type.value` | Required in unit_count[item].type object |
 | `unit_count[item].type.value` | Required in unit_count[item].type object |
 | `unit_count[item].value` | Required in unit_count[item] object |
 | `variation_theme[item].name` | Required in variation_theme[item] object |
-| `wattage[item].value` | Required in wattage[item] object |
+| `warranty_type[item].language_tag` | Required in warranty_type[item] object |
+| `warranty_type[item].value` | Required in warranty_type[item] object |
 | `width_range[item].language_tag` | Required in width_range[item] object |
 | `width_range[item].value` | Required in width_range[item] object |
 
@@ -289,11 +306,13 @@
 - `fulfillment_availability` - Required when selectors `fulfillment_channel_code` are specified
 - `purchasable_offer` - Required when selectors `marketplace_id`, `currency`, `audience` are specified
 - `list_price` - Required when selectors `marketplace_id`, `currency` are specified
+- `drawer_weight_capacity` - Required when selectors `marketplace_id`, `type` are specified
+- `drawer_interior_dimensions` - Required when selectors `marketplace_id`, `type` are specified
 - `num_batteries` - Required when selectors `marketplace_id`, `type` are specified
 - `hazmat` - Required when selectors `marketplace_id`, `aspect` are specified
-- `legal_compliance_certifications` - Required when selectors `regulatory_organization_name`, `value`, `language_tag`, `marketplace_id` are specified
 - `regulatory_compliance_certification` - Required when selectors `marketplace_id`, `regulation_type` are specified
 - `compliance_media` - Required when selectors `marketplace_id`, `content_type`, `content_language` are specified
+- `ghs_chemical_h_code` - Required when selectors `marketplace_id`, `value` are specified
 - `externally_assigned_product_identifier.type` - Required when `externally_assigned_product_identifier` is provided
 - `externally_assigned_product_identifier.value` - Required when `externally_assigned_product_identifier` is provided
 - `merchant_suggested_asin.value` - Required when `merchant_suggested_asin` is provided
@@ -301,6 +320,8 @@
 - `package_level.value` - Required when `package_level` is provided
 - `package_contains_sku.quantity` - Required when `package_contains_sku` is provided
 - `package_contains_sku.sku` - Required when `package_contains_sku` is provided
+- `target_audience.value` - Required when `target_audience` is provided
+- `target_audience.language_tag` - Required when `target_audience` is provided
 - `model_number.value` - Required when `model_number` is provided
 - `model_name.value` - Required when `model_name` is provided
 - `model_name.language_tag` - Required when `model_name` is provided
@@ -327,6 +348,8 @@
 - `handmade_classification.value` - Required when `handmade_classification` is provided
 - `generic_keyword.value` - Required when `generic_keyword` is provided
 - `generic_keyword.language_tag` - Required when `generic_keyword` is provided
+- `special_feature.value` - Required when `special_feature` is provided
+- `special_feature.language_tag` - Required when `special_feature` is provided
 - `style.value` - Required when `style` is provided
 - `style.language_tag` - Required when `style` is provided
 - `material.value` - Required when `material` is provided
@@ -336,40 +359,64 @@
 - `color.language_tag` - Required when `color` is provided
 - `size.value` - Required when `size` is provided
 - `size.language_tag` - Required when `size` is provided
+- `number_of_pieces.value` - Required when `number_of_pieces` is provided
 - `part_number.value` - Required when `part_number` is provided
+- `warranty_type.value` - Required when `warranty_type` is provided
+- `warranty_type.language_tag` - Required when `warranty_type` is provided
 - `item_shape.value` - Required when `item_shape` is provided
 - `item_shape.language_tag` - Required when `item_shape` is provided
-- `edition.value` - Required when `edition` is provided
-- `edition.language_tag` - Required when `edition` is provided
-- `capacity.value` - Required when `capacity` is provided
-- `capacity.unit` - Required when `capacity` is provided
-- `flavor.value` - Required when `flavor` is provided
-- `flavor.language_tag` - Required when `flavor` is provided
-- `wattage.value` - Required when `wattage` is provided
-- `customer_package_type.value` - Required when `customer_package_type` is provided
-- `customer_package_type.language_tag` - Required when `customer_package_type` is provided
+- `care_instructions.value` - Required when `care_instructions` is provided
+- `care_instructions.language_tag` - Required when `care_instructions` is provided
+- `configuration.value` - Required when `configuration` is provided
+- `configuration.language_tag` - Required when `configuration` is provided
+- `is_assembly_required.value` - Required when `is_assembly_required` is provided
+- `drawer_type.value` - Required when `drawer_type` is provided
+- `drawer_type.language_tag` - Required when `drawer_type` is provided
+- `number_of_drawers.value` - Required when `number_of_drawers` is provided
+- `furniture_finish.value` - Required when `furniture_finish` is provided
+- `furniture_finish.language_tag` - Required when `furniture_finish` is provided
 - `pattern.value` - Required when `pattern` is provided
 - `pattern.language_tag` - Required when `pattern` is provided
+- `mounting_type.value` - Required when `mounting_type` is provided
+- `mounting_type.language_tag` - Required when `mounting_type` is provided
+- `finish_type.value` - Required when `finish_type` is provided
+- `finish_type.language_tag` - Required when `finish_type` is provided
+- `item_form.value` - Required when `item_form` is provided
+- `item_form.language_tag` - Required when `item_form` is provided
 - `unit_count.value` - Required when `unit_count` is provided
 - `product_site_launch_date.value` - Required when `product_site_launch_date` is provided
+- `included_components.value` - Required when `included_components` is provided
+- `included_components.language_tag` - Required when `included_components` is provided
+- `league_name.value` - Required when `league_name` is provided
+- `league_name.language_tag` - Required when `league_name` is provided
+- `team_name.value` - Required when `team_name` is provided
+- `team_name.language_tag` - Required when `team_name` is provided
+- `is_fragile.value` - Required when `is_fragile` is provided
 - `scent.value` - Required when `scent` is provided
 - `scent.language_tag` - Required when `scent` is provided
 - `length_range.value` - Required when `length_range` is provided
 - `length_range.language_tag` - Required when `length_range` is provided
+- `room_type.value` - Required when `room_type` is provided
+- `room_type.language_tag` - Required when `room_type` is provided
 - `width_range.value` - Required when `width_range` is provided
 - `width_range.language_tag` - Required when `width_range` is provided
-- `indoor_outdoor_usage.value` - Required when `indoor_outdoor_usage` is provided
+- `minimum_required_door_width.value` - Required when `minimum_required_door_width` is provided
+- `minimum_required_door_width.unit` - Required when `minimum_required_door_width` is provided
 - `item_depth_width_height.depth` - Required when `item_depth_width_height` is provided
 - `item_depth_width_height.height` - Required when `item_depth_width_height` is provided
 - `item_depth_width_height.width` - Required when `item_depth_width_height` is provided
-- `master_pack_dimensions.height` - Required when `master_pack_dimensions` is provided
-- `master_pack_dimensions.length` - Required when `master_pack_dimensions` is provided
-- `master_pack_dimensions.width` - Required when `master_pack_dimensions` is provided
-- `master_pack_weight.value` - Required when `master_pack_weight` is provided
-- `master_pack_weight.unit` - Required when `master_pack_weight` is provided
+- `drawer_weight_capacity.type` - Required when `drawer_weight_capacity` is provided
+- `drawer_weight_capacity.unit_decimal` - Required when `drawer_weight_capacity` is provided
+- `drawer_interior_dimensions.depth` - Required when `drawer_interior_dimensions` is provided
+- `drawer_interior_dimensions.height` - Required when `drawer_interior_dimensions` is provided
+- `drawer_interior_dimensions.type` - Required when `drawer_interior_dimensions` is provided
+- `drawer_interior_dimensions.width` - Required when `drawer_interior_dimensions` is provided
+- `number_of_packs.value` - Required when `number_of_packs` is provided
 - `parentage_level.value` - Required when `parentage_level` is provided
 - `child_parent_sku_relationship.child_relationship_type` - Required when `child_parent_sku_relationship` is provided
 - `variation_theme.name` - Required when `variation_theme` is provided
+- `safety_warning.value` - Required when `safety_warning` is provided
+- `safety_warning.language_tag` - Required when `safety_warning` is provided
 - `batteries_required.value` - Required when `batteries_required` is provided
 - `batteries_included.value` - Required when `batteries_included` is provided
 - `num_batteries.quantity` - Required when `num_batteries` is provided
@@ -382,11 +429,6 @@
 - `safety_data_sheet_url.language_tag` - Required when `safety_data_sheet_url` is provided
 - `item_weight.value` - Required when `item_weight` is provided
 - `item_weight.unit` - Required when `item_weight` is provided
-- `required_product_compliance_certificate.value` - Required when `required_product_compliance_certificate` is provided
-- `legal_compliance_certifications.regulatory_organization_name` - Required when `legal_compliance_certifications` is provided
-- `legal_compliance_certifications.certification_status` - Required when `legal_compliance_certifications` is provided
-- `legal_compliance_certifications.value` - Required when `legal_compliance_certifications` is provided
-- `legal_compliance_certifications.language_tag` - Required when `legal_compliance_certifications` is provided
 - `california_proposition_65.compliance_type` - Required when `california_proposition_65` is provided
 - `fcc_radio_frequency_emission_compliance.registration_status` - Required when `fcc_radio_frequency_emission_compliance` is provided
 - `regulatory_compliance_certification.regulation_type` - Required when `regulatory_compliance_certification` is provided
@@ -396,6 +438,7 @@
 - `compliance_media.content_language` - Required when `compliance_media` is provided
 - `compliance_media.source_location` - Required when `compliance_media` is provided
 - `gpsr_safety_attestation.value` - Required when `gpsr_safety_attestation` is provided
+- `contains_pfas.value` - Required when `contains_pfas` is provided
 - `ships_globally.value` - Required when `ships_globally` is provided
 - `ghs_chemical_h_code.value` - Required when `ghs_chemical_h_code` is provided
 - `main_product_image_locator.media_location` - Required when `main_product_image_locator` is provided
@@ -408,20 +451,21 @@
 - `other_product_image_locator_7.media_location` - Required when `other_product_image_locator_7` is provided
 - `other_product_image_locator_8.media_location` - Required when `other_product_image_locator_8` is provided
 - `swatch_product_image_locator.media_location` - Required when `swatch_product_image_locator` is provided
-- `item_dimensions.length` - Required when `item_dimensions` is provided
-- `item_dimensions.width` - Required when `item_dimensions` is provided
-- `item_dimensions.height` - Required when `item_dimensions` is provided
 - `item_package_dimensions.length` - Required when `item_package_dimensions` is provided
 - `item_package_dimensions.width` - Required when `item_package_dimensions` is provided
 - `item_package_dimensions.height` - Required when `item_package_dimensions` is provided
 - `item_package_weight.value` - Required when `item_package_weight` is provided
 - `item_package_weight.unit` - Required when `item_package_weight` is provided
+- `item_display_weight.value` - Required when `item_display_weight` is provided
+- `item_display_weight.unit` - Required when `item_display_weight` is provided
+- `master_pack_layers_per_pallet_quantity.value` - Required when `master_pack_layers_per_pallet_quantity` is provided
+- `master_packs_per_layer_quantity.value` - Required when `master_packs_per_layer_quantity` is provided
 
 ## Properties
 
 | Property | Type | Description |
 |----------|------|-------------|
-| `item_name` | array | Max. 250 characters |
+| `item_name` | array | Provide a title for the item that may be customer facing |
 | `brand` | array | Max. 50 characters |
 | `externally_assigned_product_identifier` | array | Provide the external ID (barcode) type and corresponding value that is being used to identify the product |
 | `merchant_suggested_asin` | array | Provide an ASIN for your product if one exists. If a value is not provided, the system will attempt a match based on the External Product ID. |
@@ -429,6 +473,7 @@
 | `item_type_keyword` | array | What is the item that you are selling? |
 | `package_level` | array | Provide the package level of the item. Choose “Unit” when package hierarchy is not provided or applicable. Provide one “Unit” item for every package hierarchy. |
 | `package_contains_sku` | array | Provide the SKU and quantity of the child items contained in the next package level. |
+| `target_audience` | array | Specify the target audience that the product is intended for |
 | `model_number` | array | Product code assigned by the manufacturer; can be numbers, letters, or both |
 | `model_name` | array | Specify the model name of the product as defined by the manufacturer or brand excluding item type, color, brand or size |
 | `manufacturer` | array | The full name of the publisher who issued the product |
@@ -450,37 +495,52 @@
 | `other_offer_image_locator_3` | array | Provide the location of the image |
 | `other_offer_image_locator_4` | array | Provide the location of the image |
 | `other_offer_image_locator_5` | array | Provide the location and source of the image |
+| `supplemental_condition_information` | array | Provide the additional condition information on the non-new product. |
 | `handmade_classification` | array | Select the value that best describes how the product was produced |
-| `product_description` | array | Max. 2,000 characters. Use this to describe the product in detail. Please enter only product-related features here. You'll have a chance later on to enter item condition, price, and other seller-specific info. |
+| `product_description` | array | The description you provide should pertain to the product in general, not your particular item. There is a 2,000 character maximum. |
 | `bullet_point` | array | Max. 100 characters per line. Use these to highlight some of the product's most important qualities. Each line will be displayed as a separate bullet point above the product description. |
 | `generic_keyword` | array | Provide specific search terms to help customers find your product. |
+| `special_feature` | array | An additional text field where you can indicate any additional relevant product information. |
 | `style` | array | The style of the item |
 | `material` | array | What material is the product made out of? |
 | `number_of_items` | array | Provide the total number of identical items in the selling unit to the customer |
 | `item_package_quantity` | array | Quantity of the item for sale in one package |
 | `color` | array | Provide the color of the product |
 | `size` | array | The numeric or text version of the item's size. |
+| `number_of_pieces` | array | Number of pieces |
 | `part_number` | array | For most products, this will be identical to the model number; however, some manufacturers distinguish part number from model number. |
+| `warranty_type` | array | Enter the type of warranty for this item |
 | `item_shape` | array | The shape of the item |
-| `edition` | array | Provide the version or edition of the item |
-| `capacity` | array | The capacity of the item. |
+| `care_instructions` | array | Provide instructions related to how to care for the item |
+| `configuration` | array | Indicate the configuration of the item |
+| `is_assembly_required` | array | Indicate whether or not the item requires assembly by the customer |
 | `item_display_dimensions` | array | Provide the dimensions of the product, without packaging and fully assembled |
-| `flavor` | array | What flavor is the product? |
-| `wattage` | array | The wattage rating of the product. Input a number only--do not enter units. |
-| `customer_package_type` | array | Provide the products package type |
+| `drawer_type` | array | Describes the drawer(s) on the product. |
+| `number_of_drawers` | array | Provide the number of drawers that the item has |
+| `furniture_finish` | array | the finish of furniture |
 | `pattern` | array | Provide the most prominent repeated decorative design of the item |
+| `mounting_type` | array | Provide the way the dresser is designed to be installed or secured, indicating how it attaches to a surface or structure. |
+| `finish_type` | array | Indicate the external appearance of the product once applied |
+| `item_form` | array | Provide a value that represents the form of the item |
 | `unit_count` | array | Specify the number of units and the unit type of the product |
 | `product_site_launch_date` | array | Date you wish this detail page to launch. |
+| `included_components` | array | Which components are included? |
+| `league_name` | array | Name of league associated with this event |
+| `team_name` | array | Provide the name of the sports team associated with the dresser, indicating the team-themed design or branding on the furniture. |
+| `is_fragile` | array | Is the item fragile? |
 | `scent` | array | Provide a description of the scent of the item |
 | `length_range` | array | Length range for blinds |
+| `room_type` | array | Provide the room the item is intended for, where it will be placed and used, like a bedroom or living room. |
 | `width_range` | array | Width range for blinds |
-| `indoor_outdoor_usage` | array | Provide whether the product is made for indoor or outdoor use. If both, provide values for both indoor and outdoor. |
-| `item_depth_width_height` | array | Provide the dimensions of the item when ready for use, like the length, width, and height of a fully unfolded blanket. |
-| `master_pack_dimensions` | array | Provide the width, height and depth measurements of the master pack. |
-| `master_pack_weight` | array | Provide the weight measurement of the master pack item. |
+| `minimum_required_door_width` | array | Provide the minimum width of a doorway needed for the piece of furniture to fit through. This information is typically used as a measurement for delivery. |
+| `item_depth_width_height` | array | The depth and width of the item in ready to use condition. Ready to use is defined as out of packaging and displayed as used for example fully rolled out for a rug or blanket. |
+| `drawer_weight_capacity` | array | Provide the maximum weight capacity that a single drawer within a dresser, a desk, or a storage drawer unit can support without being damaged. |
+| `drawer_interior_dimensions` | array | Provide the measurement of the product's single drawer interior dimensions in depth, width and height in an assembled state. |
+| `number_of_packs` | array | Provide the count of inner packs included in an item. For a single pack or packed assortment of non-identical items, enter 1. |
 | `parentage_level` | array | Specify whether a SKU is a parent or child |
 | `child_parent_sku_relationship` | array | The attribute indicates the Child Parent Sku Relationship of the product |
 | `variation_theme` | array | Specify the variation theme that the product will use. The theme's attributes must be populated for all items in the grouping. |
+| `safety_warning` | array | List safety information customers should know. |
 | `country_of_origin` | array | The country in which the product was published. |
 | `batteries_required` | array | Indicate if batteries are required. |
 | `batteries_included` | array | Indicate if batteries are included with the product. |
@@ -489,20 +549,19 @@
 | `number_of_lithium_metal_cells` | array | Total number of Lithium cells (of type "Metal") in the product, where the cell isn't contained in an encased battery. |
 | `number_of_lithium_ion_cells` | array | Total number of Lithium cells (of type "Ion") in the product, where the cell isn't contained in an encased battery. |
 | `lithium_battery` | array | The attribute indicates the Lithium Battery of the product |
-| `supplier_declared_dg_hz_regulation` | array | If the product is a Dangerous Good or Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or waste select from the list of valid values |
+| `supplier_declared_dg_hz_regulation` | array | Provide the regulations that apply to the item if it is classified as a dangerous good, hazardous material, substance, or waste. |
 | `ghs` | array | Provide the Global Harmonized System (GHS) information |
 | `hazmat` | array | Provide hazmat information that is relevant to the product based on the aspect selected |
 | `safety_data_sheet_url` | array | Provide the SDS/MSDS URL. Required for Hazardous material SDS/MSDS provides information such as physical data (flashpoint, pH, etc.), health concerns, storage, and transportation information for potentially dangerous substances. |
-| `item_weight` | array | Provide the weight of the item (not including the packaging) |
-| `required_product_compliance_certificate` | array | Select the regulation/restriction your product is subject to that requires a certificate such as an EO Number or Judgement Order for compliance. If your product is not subject to any of these regulations, select Not Applicable |
-| `legal_compliance_certifications` | array | Provide relevant compliance certifications for the product |
+| `item_weight` | array | A number with up to 10 digits to the left of the decimal point and 2 digits to the right of the decimal point. Please use decimal points, commas are not accepted. |
 | `california_proposition_65` | array | Provide the Proposition 65 warning information applicable to your product, if any. By removing or changing the information you certify that the previously provided warning information is no longer legally required |
 | `fcc_radio_frequency_emission_compliance` | array | Provide details on compliance to FCC regulations for products that may emit radio frequencies. |
 | `regulatory_compliance_certification` | array | Provide any regulation that is relevant to the product as well as any required regulatory identications such as certification numbers. |
-| `dsa_responsible_party_address` | array | Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If you’ve already submitted this Responsible Person’s information in the past, make sure you use the same email or URL. |
+| `dsa_responsible_party_address` | array | Provide the email address or URL for the EU Responsible Person, representing the product in compliance with EU regulations. |
 | `compliance_media` | array | Provide information on the product documents you want to display on the product detail page to comply with the General Product Safety Regulation (GPSR). Alternatively, you can upload images under the PS01-PS06 variants in the Image Manager. |
 | `gpsr_safety_attestation` | array | Check “yes” if your product doesn’t have any warning and safety information, as it can be used safely and as intended without it. |
 | `gpsr_manufacturer_reference` | array | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you’ve already submitted this manufacturer’s information in the past, make sure you use the same email or URL. |
+| `contains_pfas` | array | Provide whether the item contains PFAS (perfluoroalkyl or polyfluoroalkyl substances), a common but complex group of synthetic chemicals. |
 | `ships_globally` | array | Provide whether the item can be shipped globally by Amazon  |
 | `ghs_chemical_h_code` | array | Provide the GHS chemical hazard codes for the chemical substance/mixture in order to display warnings to customers. |
 | `main_product_image_locator` | array | The attribute indicates the Main Product Image Locator of the product |
@@ -515,25 +574,27 @@
 | `other_product_image_locator_7` | array | The attribute indicates the Other Product Image Locator 7 of the product |
 | `other_product_image_locator_8` | array | The attribute indicates the Other Product Image Locator 8 of the product |
 | `swatch_product_image_locator` | array | The attribute indicates the Swatch Product Image Locator of the product |
-| `item_dimensions` | array | Provide the item's dimensions |
 | `item_package_dimensions` | array | Provide the item's package dimensions |
 | `item_package_weight` | array | The weight in original package |
+| `item_display_weight` | array | Provide the item weight if the product is a solid |
+| `master_pack_layers_per_pallet_quantity` | array | Provide the number of layers of master packs held on a pallet packed for storage (known as Hi). |
+| `master_packs_per_layer_quantity` | array | Provide the number of master packs of the product in each layer on a pallet (known as Ti). |
 
 ## Property Details
 
 ### item_name
 
-Max. 250 characters
+Provide a title for the item that may be customer facing
 
 **Type:** array
 
-**Title:** Product Name
+**Title:** Title
 
 **Required:** Yes
 
 **Examples:**
 
-- `KitchenAid KFP670 Professional Food Processor, White`
+- `Adidas Blue Sneakers`
 
 **Array Items:**
 
@@ -665,7 +726,7 @@ What is the item that you are selling?
 
 **Examples:**
 
-- `Plastic watering can`
+- `Bedroom dresser`
 
 **Array Items:**
 
@@ -731,6 +792,32 @@ Provide the SKU and quantity of the child items contained in the next package le
 | `quantity` | integer | Yes | Provide the quantity of each unit, case, or pallet identified in Package Level. |
 | `sku` | string | Yes | Provide the SKU identifier of each unit, case or pallet identified in Package Level. |
 
+### target_audience
+
+Specify the target audience that the product is intended for
+
+**Type:** array
+
+**Title:** Target Audience
+
+**Required:** No
+
+**Examples:**
+
+- `Adult`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Specify the target audience that the product is intended for |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
 ### model_number
 
 Product code assigned by the manufacturer; can be numbers, letters, or both
@@ -743,7 +830,7 @@ Product code assigned by the manufacturer; can be numbers, letters, or both
 
 **Examples:**
 
-- `KFP670`
+- `C-50`
 
 **Array Items:**
 
@@ -794,7 +881,7 @@ The full name of the publisher who issued the product
 
 **Examples:**
 
-- `KitchenAid; Whirlpool; Krups; Sealy`
+- `Sony, Kitchen Aid, Microsoft`
 
 **Array Items:**
 
@@ -1292,6 +1379,37 @@ Provide the location and source of the image
 | `marketplace_id` | object | No |  |
 | `media_location` | string | Yes | The URL for additional images of your product. These images will be shown on the detail page when the customer clicks through to see other views associated with the product. |
 
+### supplemental_condition_information
+
+Provide the additional condition information on the non-new product.
+
+**Type:** array
+
+**Title:** Supplemental Condition Information
+
+**Required:** No
+
+**Examples:**
+
+- `iPhone 14, Open Box Never Used, OEM, Original, Greater than 90%, With Tags, Pristine, Fully Functional`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `accessories` | string | No | Provide the type of accessory included in the non-new product. |
+| `battery_life_percentage` | string | No | Provide the battery health information of the non-new product if it includes batteries. |
+| `cosmetic` | string | No | Provide the overall cosmetic condition of the non-new product. |
+| `features` | array | No | Provide the refurbishment type of the non-new product. |
+| `functional_condition` | string | No | Provide the functional condition of the non-new product. |
+| `marketplace_id` | object | No |  |
+| `packaging` | string | No | Provide the packaging type of the non-new product |
+| `source_type` | string | No | Provide the information on how the non-new product was sourced. |
+
 ### handmade_classification
 
 Select the value that best describes how the product was produced
@@ -1319,7 +1437,7 @@ Select the value that best describes how the product was produced
 
 ### product_description
 
-Max. 2,000 characters. Use this to describe the product in detail. Please enter only product-related features here. You'll have a chance later on to enter item condition, price, and other seller-specific info.
+The description you provide should pertain to the product in general, not your particular item. There is a 2,000 character maximum.
 
 **Type:** array
 
@@ -1329,7 +1447,7 @@ Max. 2,000 characters. Use this to describe the product in detail. Please enter 
 
 **Examples:**
 
-- `These durable nonstick baking sheets...`
+- `This ham has been smoked for 12 hours...`
 
 **Array Items:**
 
@@ -1355,7 +1473,7 @@ Max. 100 characters per line. Use these to highlight some of the product's most 
 
 **Examples:**
 
-- `Non-stick coating makes clean-up easy`
+- `Delicious honey-apricot glaze`
 
 **Array Items:**
 
@@ -1392,6 +1510,32 @@ Provide specific search terms to help customers find your product.
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
 | `value` | string | Yes | Provide any terms that may be relevant to customer searches. No repetition, no competitor brand names or ASINs. |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
+### special_feature
+
+An additional text field where you can indicate any additional relevant product information.
+
+**Type:** array
+
+**Title:** Additional Features
+
+**Required:** No
+
+**Examples:**
+
+- `max number of images 36,  Operating Time 6 hours`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Provide any special features an item has that distinguish it from other, comparable products |
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
@@ -1545,6 +1689,31 @@ The numeric or text version of the item's size.
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
+### number_of_pieces
+
+Number of pieces
+
+**Type:** array
+
+**Title:** Number of Pieces
+
+**Required:** No
+
+**Examples:**
+
+- `1250`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | integer | Yes | Provide the number of pieces within the unit being sold to the customer |
+| `marketplace_id` | object | No |  |
+
 ### part_number
 
 For most products, this will be identical to the model number; however, some manufacturers distinguish part number from model number.
@@ -1568,6 +1737,32 @@ For most products, this will be identical to the model number; however, some man
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
 | `value` | string | Yes | Provide the part number. For many products, this will be identical to the model number however some manufacturers distinguish part number from model number |
+| `marketplace_id` | object | No |  |
+
+### warranty_type
+
+Enter the type of warranty for this item
+
+**Type:** array
+
+**Title:** Warranty Type
+
+**Required:** No
+
+**Examples:**
+
+- `Manufacturer`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Enter the type of warranty or select "No warranty" if there isn't one |
+| `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
 ### item_shape
@@ -1596,19 +1791,15 @@ The shape of the item
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
-### edition
+### care_instructions
 
-Provide the version or edition of the item
+Provide instructions related to how to care for the item
 
 **Type:** array
 
-**Title:** Edition
+**Title:** Product Care Instructions
 
 **Required:** No
-
-**Examples:**
-
-- `Teacher's Edition, Unabridged Version`
 
 **Array Items:**
 
@@ -1618,23 +1809,23 @@ Provide the version or edition of the item
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | string | Yes | Provide the version or edition of the item |
+| `value` | string | Yes | Provide instructions related to how to care for the item |
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
-### capacity
+### configuration
 
-The capacity of the item.
+Indicate the configuration of the item
 
 **Type:** array
 
-**Title:** Capacity
+**Title:** Configuration
 
 **Required:** No
 
 **Examples:**
 
-- `5.3`
+- `AWD Configuration`
 
 **Array Items:**
 
@@ -1644,8 +1835,33 @@ The capacity of the item.
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | number | Yes | Provide the capacity of the item as a numeric value |
-| `unit` | string | Yes | Select the unit of measure for Capacity. If a value is provided for Capacity, you must also enter the corresponding unit. |
+| `value` | string | Yes | Indicate the configuration of the item |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
+### is_assembly_required
+
+Indicate whether or not the item requires assembly by the customer
+
+**Type:** array
+
+**Title:** Required Assembly
+
+**Required:** No
+
+**Examples:**
+
+- `Yes`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | boolean | Yes | Indicate whether or not the item requires assembly by the customer |
 | `marketplace_id` | object | No |  |
 
 ### item_display_dimensions
@@ -1782,19 +1998,19 @@ Provide the width of the product without packaging and fully assembled
 | `value` | number | Yes | Provide the numeric component of the width of the product without packaging and fully assembled |
 | `unit` | string | Yes | Select the corresponding unit |
 
-### flavor
+### drawer_type
 
-What flavor is the product?
+Describes the drawer(s) on the product.
 
 **Type:** array
 
-**Title:** Flavor
+**Title:** Drawer Type
 
 **Required:** No
 
 **Examples:**
 
-- `Double Rich Chocolate, Cherry, Chocolate, Vanilla`
+- `Storage, Warming`
 
 **Array Items:**
 
@@ -1804,45 +2020,23 @@ What flavor is the product?
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | string | Yes | Specify the flavor of the product |
+| `value` | string | Yes | Provide the type of drawer mechanism used in the dresser, indicating how the drawers open and close. |
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
-### wattage
+### number_of_drawers
 
-The wattage rating of the product. Input a number only--do not enter units.
-
-**Type:** array
-
-**Title:** Wattage
-
-**Required:** No
-
-**Array Items:**
-
-**Item Type:** object
-
-**Item Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `value` | number | Yes | Provide the wattage rating as a numeric value |
-| `unit` | string | No | Select the unit of measure for Wattage. If a value is provided for Wattage, you must also enter the corresponding unit. |
-| `marketplace_id` | object | No |  |
-
-### customer_package_type
-
-Provide the products package type
+Provide the number of drawers that the item has
 
 **Type:** array
 
-**Title:** Customer Package Type
+**Title:** Number of Drawers
 
 **Required:** No
 
 **Examples:**
 
-- `Standard Packaging`
+- `7`
 
 **Array Items:**
 
@@ -1852,7 +2046,32 @@ Provide the products package type
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | string | Yes | Provide the products package type |
+| `value` | integer | Yes | Provide the number of drawers that the item has |
+| `marketplace_id` | object | No |  |
+
+### furniture_finish
+
+the finish of furniture
+
+**Type:** array
+
+**Title:** Furniture Finish
+
+**Required:** No
+
+**Examples:**
+
+- `Oak`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Provide a description of the furniture's finish |
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
@@ -1879,6 +2098,84 @@ Provide the most prominent repeated decorative design of the item
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
 | `value` | string | Yes | Provide the most prominent repeated decorative design of the item |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
+### mounting_type
+
+Provide the way the dresser is designed to be installed or secured, indicating how it attaches to a surface or structure.
+
+**Type:** array
+
+**Title:** Mounting Type
+
+**Required:** No
+
+**Examples:**
+
+- `Clevis`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Provide the product's mounting type. |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
+### finish_type
+
+Indicate the external appearance of the product once applied
+
+**Type:** array
+
+**Title:** Finish Type
+
+**Required:** No
+
+**Examples:**
+
+- `Waxed`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Specify the finish of the product's exterior surface |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
+### item_form
+
+Provide a value that represents the form of the item
+
+**Type:** array
+
+**Title:** Item Form
+
+**Required:** No
+
+**Examples:**
+
+- `Sticks`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Provide a value that represents the form of the item |
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
@@ -1950,6 +2247,109 @@ Date you wish this detail page to launch.
 | `marketplace_id` | object | No |  |
 | `value` | string | Yes | Provide the date the product launches and should first be shown on the Amazon website (YYYY-MM-DD format). PSLD does not impact buyability or pre-order logic, it is used to indicate when a product will be visible and searchable on the Amazon website |
 
+### included_components
+
+Which components are included?
+
+**Type:** array
+
+**Title:** Included Components
+
+**Required:** No
+
+**Examples:**
+
+- `Camera Body, Battery Pack`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Specify the items that are included with this product |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
+### league_name
+
+Name of league associated with this event
+
+**Type:** array
+
+**Title:** League Name
+
+**Required:** No
+
+**Examples:**
+
+- `NBA`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Provide the league name associated with this product |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
+### team_name
+
+Provide the name of the sports team associated with the dresser, indicating the team-themed design or branding on the furniture.
+
+**Type:** array
+
+**Title:** Team Name
+
+**Required:** No
+
+**Examples:**
+
+- `Seattle Seahawks`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Provide the name of the sports team associated with the dresser, indicating the team-themed design or branding on the furniture. |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
+### is_fragile
+
+Is the item fragile?
+
+**Type:** array
+
+**Title:** Is Fragile
+
+**Required:** No
+
+**Examples:**
+
+- `TRUE`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | boolean | Yes | Is the product glass or fragile? |
+| `marketplace_id` | object | No |  |
+
 ### scent
 
 Provide a description of the scent of the item
@@ -1998,6 +2398,32 @@ Length range for blinds
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
+### room_type
+
+Provide the room the item is intended for, where it will be placed and used, like a bedroom or living room.
+
+**Type:** array
+
+**Title:** Room Type
+
+**Required:** No
+
+**Examples:**
+
+- `Bedroom`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Provide the type of room the dresser is designed for, indicating its intended placement and use within a home. |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
+
 ### width_range
 
 Width range for blinds
@@ -2024,19 +2450,19 @@ Width range for blinds
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
-### indoor_outdoor_usage
+### minimum_required_door_width
 
-Provide whether the product is made for indoor or outdoor use. If both, provide values for both indoor and outdoor.
+Provide the minimum width of a doorway needed for the piece of furniture to fit through. This information is typically used as a measurement for delivery.
 
 **Type:** array
 
-**Title:** Indoor Outdoor Usage
+**Title:** Minimum Required Door Width
 
 **Required:** No
 
 **Examples:**
 
-- `Indoor`
+- `36.0 Inches`
 
 **Array Items:**
 
@@ -2046,12 +2472,13 @@ Provide whether the product is made for indoor or outdoor use. If both, provide 
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | string | Yes | Provide whether the product is made for indoor or outdoor use. If both, provide values for both indoor and outdoor. |
+| `value` | number | Yes | Provide the minimum width of a doorway needed for the piece of furniture to fit through. This information is typically used as a measurement for delivery. |
+| `unit` | string | Yes | Provide the corresponding unit used to designate the minimum doorway width needed for the dresser to fit through. |
 | `marketplace_id` | object | No |  |
 
 ### item_depth_width_height
 
-Provide the dimensions of the item when ready for use, like the length, width, and height of a fully unfolded blanket.
+The depth and width of the item in ready to use condition. Ready to use is defined as out of packaging and displayed as used for example fully rolled out for a rug or blanket.
 
 **Type:** array
 
@@ -2071,18 +2498,18 @@ Provide the dimensions of the item when ready for use, like the length, width, a
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `depth` | object | Yes | Provide the depth of the item from front to back placed in the manner in which it is expected to be used. Include the handle and spout if applicable. |
-| `height` | object | Yes | Provide the height of the item from top to bottom with lid closed and in the manner in which it is expected to be used. Include handle and spout if applicable. |
+| `depth` | object | Yes | Provide the measurement of the item from front to back in an assembled state. |
+| `height` | object | Yes | Provide the measurement of the item from the floor to the top in an assembled state. If the item is expandable, the height is measured in an unexpanded position. |
 | `marketplace_id` | object | No |  |
-| `width` | object | Yes | Provide the width of the item from side to side placed in the manner in which it is expected to be used. Include the handle and spout if applicable. |
+| `width` | object | Yes | Provide the measurement from side to side of the front of the item in an assembled state. |
 
 #### item_depth_width_height[].depth
 
-Provide the depth of the item from front to back placed in the manner in which it is expected to be used. Include the handle and spout if applicable.
+Provide the measurement of the item from front to back in an assembled state.
 
 **Type:** object
 
-**Title:** Item Depth Front to Back
+**Title:** Item Depth Front To Back
 
 **Required:** No
 
@@ -2090,16 +2517,16 @@ Provide the depth of the item from front to back placed in the manner in which i
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | number | Yes | Provide the depth of the item from front to back placed in the manner in which it is expected to be used. Include the handle and spout if applicable. |
-| `unit` | string | Yes | Select the unit of measure for the item depth. |
+| `value` | number | Yes | Provide the measurement of the item from front to back in an assembled state. |
+| `unit` | string | Yes | Select the unit of measure for Item depth. |
 
 #### item_depth_width_height[].height
 
-Provide the height of the item from top to bottom with lid closed and in the manner in which it is expected to be used. Include handle and spout if applicable.
+Provide the measurement of the item from the floor to the top in an assembled state. If the item is expandable, the height is measured in an unexpanded position.
 
 **Type:** object
 
-**Title:** Height Top to Bottom
+**Title:** Item Height Floor To Top
 
 **Required:** No
 
@@ -2107,16 +2534,16 @@ Provide the height of the item from top to bottom with lid closed and in the man
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | number | Yes | Provide the height of the item from top to bottom with lid closed and in the manner in which it is expected to be used. Include handle and spout if applicable. |
-| `unit` | string | Yes | Select the unit of measure for the item height. |
+| `value` | number | Yes | Provide the measurement of the item from the floor to the top in an assembled state. If the item is expandable, the height is measured in an unexpanded position. |
+| `unit` | string | Yes | Select the unit of measure for item Height |
 
 #### item_depth_width_height[].width
 
-Provide the width of the item from side to side placed in the manner in which it is expected to be used. Include the handle and spout if applicable.
+Provide the measurement from side to side of the front of the item in an assembled state.
 
 **Type:** object
 
-**Title:** Item Width Side to Side
+**Title:** Item Width Side To Side
 
 **Required:** No
 
@@ -2124,22 +2551,24 @@ Provide the width of the item from side to side placed in the manner in which it
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | number | Yes | Provide the width of the item from side to side placed in the manner in which it is expected to be used. Include the handle and spout if applicable. |
-| `unit` | string | Yes | Select the unit of measure for the item width. |
+| `value` | number | Yes | Provide the measurement from side to side of the front of the item in an assembled state. |
+| `unit` | string | Yes | Select the unit of measure for item width. |
 
-### master_pack_dimensions
+### drawer_weight_capacity
 
-Provide the width, height and depth measurements of the master pack.
+Provide the maximum weight capacity that a single drawer within a dresser, a desk, or a storage drawer unit can support without being damaged.
 
 **Type:** array
 
-**Title:** Master Pack Dimensions
+**Title:** Drawer Weight Capacity
 
-**Required:** No
+**Required:** Conditionally
 
 **Examples:**
 
-- `32.4 inches`
+- `Large, 4 Kilograms`
+
+**Selectors:** `marketplace_id`, `type`
 
 **Array Items:**
 
@@ -2149,18 +2578,17 @@ Provide the width, height and depth measurements of the master pack.
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `height` | object | Yes | Provide the height measurement of the master pack. |
-| `length` | object | Yes | Provide the length measurement of the master pack. |
 | `marketplace_id` | object | No |  |
-| `width` | object | Yes | Provide the width measurement of the master pack. |
+| `type` | string | Yes | Provide the drawer size of the single drawer within a dresser, a desk, or a storage drawer unit. |
+| `unit_decimal` | object | Yes | Provide the maximum weight capacity that a single drawer within a dresser, a desk, or a storage drawer unit can support without being damaged. |
 
-#### master_pack_dimensions[].height
+#### drawer_weight_capacity[].unit_decimal
 
-Provide the height measurement of the master pack.
+Provide the maximum weight capacity that a single drawer within a dresser, a desk, or a storage drawer unit can support without being damaged.
 
 **Type:** object
 
-**Title:** Master Pack Height
+**Title:** Drawer Weight Capacity
 
 **Required:** No
 
@@ -2168,56 +2596,24 @@ Provide the height measurement of the master pack.
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | number | Yes | Provide the height measurement of the master pack. |
-| `unit` | string | Yes | Provide the corresponding unit used to designate the height measurement of the master pack. |
+| `value` | number | Yes | Provide the maximum weight capacity that a single drawer within a dresser, a desk, or a storage drawer unit can support without being damaged. |
+| `unit` | string | Yes | Provide the corresponding unit used to designate the single drawer weight capacity within a dresser, a desk, or a storage unit. |
 
-#### master_pack_dimensions[].length
+### drawer_interior_dimensions
 
-Provide the length measurement of the master pack.
-
-**Type:** object
-
-**Title:** Master Pack Length
-
-**Required:** No
-
-**Nested Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `value` | number | Yes | Provide the length measurement of the master pack. |
-| `unit` | string | Yes | Provide the corresponding unit used to designate the length measurement of the master pack. |
-
-#### master_pack_dimensions[].width
-
-Provide the width measurement of the master pack.
-
-**Type:** object
-
-**Title:** Master Pack Width
-
-**Required:** No
-
-**Nested Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `value` | number | Yes | Provide the width measurement of the master pack. |
-| `unit` | string | Yes | Provide the corresponding unit used to designate the width measurement of the master pack. |
-
-### master_pack_weight
-
-Provide the weight measurement of the master pack item.
+Provide the measurement of the product's single drawer interior dimensions in depth, width and height in an assembled state.
 
 **Type:** array
 
-**Title:** Master Pack Weight
+**Title:** Drawer Interior Dimensions
 
-**Required:** No
+**Required:** Conditionally
 
 **Examples:**
 
-- `25.3 Pounds`
+- `Large, Depth: 5.75 Inches, Width: 38.625 Inches, Height: 6.375 Inches`
+
+**Selectors:** `marketplace_id`, `type`
 
 **Array Items:**
 
@@ -2227,8 +2623,86 @@ Provide the weight measurement of the master pack item.
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | number | Yes | Provide the weight measurement of the master pack item. |
-| `unit` | string | Yes | Provide the corresponding unit used to designate the weight of the master pack item. |
+| `depth` | object | Yes | Provide the interior depth measurement from front to back of the drawer in an assembled state. |
+| `height` | object | Yes | Provide the interior height measurement from top to bottom of the drawer in an assembled state. |
+| `marketplace_id` | object | No |  |
+| `type` | string | Yes | Provide the drawer size of the single drawer within a dresser, a desk, or a storage drawer unit you want to provide dimensions for. |
+| `width` | object | Yes | Provide the interior width measurement from side to side of the front of the drawer in an assembled state. |
+
+#### drawer_interior_dimensions[].depth
+
+Provide the interior depth measurement from front to back of the drawer in an assembled state.
+
+**Type:** object
+
+**Title:** Drawer Interior Depth
+
+**Required:** No
+
+**Nested Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | number | Yes | Provide the interior depth measurement from front to back of the drawer in an assembled state. |
+| `unit` | string | Yes | Provide the corresponding unit used to designate the interior depth measurement. |
+
+#### drawer_interior_dimensions[].height
+
+Provide the interior height measurement from top to bottom of the drawer in an assembled state.
+
+**Type:** object
+
+**Title:** Drawer Interior Height
+
+**Required:** No
+
+**Nested Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | number | Yes | Provide the interior height measurement from top to bottom of the drawer in an assembled state. |
+| `unit` | string | Yes | Provide the corresponding unit used to designate the interior height measurement. |
+
+#### drawer_interior_dimensions[].width
+
+Provide the interior width measurement from side to side of the front of the drawer in an assembled state.
+
+**Type:** object
+
+**Title:** Drawer Interior Width
+
+**Required:** No
+
+**Nested Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | number | Yes | Provide the interior width measurement from side to side of the front of the drawer in an assembled state. |
+| `unit` | string | Yes | Provide the corresponding unit used to designate the interior width measurement. |
+
+### number_of_packs
+
+Provide the count of inner packs included in an item. For a single pack or packed assortment of non-identical items, enter 1.
+
+**Type:** array
+
+**Title:** Number of Packs
+
+**Required:** No
+
+**Examples:**
+
+- `2`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | integer | Yes | Provide the count of inner packs included in an item. For a single pack or packed assortment of non-identical items, enter 1. |
 | `marketplace_id` | object | No |  |
 
 ### parentage_level
@@ -2305,6 +2779,32 @@ Specify the variation theme that the product will use. The theme's attributes mu
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
 | `name` | string | Yes | Specify the variation theme that the product will use. The theme's attributes must be populated for all items in the grouping. |
+
+### safety_warning
+
+List safety information customers should know.
+
+**Type:** array
+
+**Title:** Safety Warning
+
+**Required:** No
+
+**Examples:**
+
+- `Consult with a doctor before using this product.`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | string | Yes | Provide any safety warnings printed on the item's packaging |
+| `language_tag` | object | Yes |  |
+| `marketplace_id` | object | No |  |
 
 ### country_of_origin
 
@@ -2495,7 +2995,7 @@ The attribute indicates the Lithium Battery of the product
 
 ### supplier_declared_dg_hz_regulation
 
-If the product is a Dangerous Good or Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or waste select from the list of valid values
+Provide the regulations that apply to the item if it is classified as a dangerous good, hazardous material, substance, or waste.
 
 **Type:** array
 
@@ -2515,7 +3015,7 @@ If the product is a Dangerous Good or Hazardous Material, Substance or Waste tha
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | string | Yes | If the product is a Dangerous Good or Hazardous Material, Substance or Waste that is regulated for transportation, storage, and/or waste select from the list of valid values |
+| `value` | string | Yes | Provide the regulations that apply to the item if it is classified as a dangerous good, hazardous material, substance, or waste. |
 | `marketplace_id` | object | No |  |
 
 ### ghs
@@ -2593,13 +3093,13 @@ Provide the SDS/MSDS URL. Required for Hazardous material SDS/MSDS provides info
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | string | Yes | Provide the SDS/MSDS URL if any value other than Not Applicable or Unknown is selected in the Dangerous Goods Regulation column. |
+| `value` | string | Yes | Provide the web address for the Safety Data Sheet, containing essential safety information for potentially hazardous materials. |
 | `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
 ### item_weight
 
-Provide the weight of the item (not including the packaging)
+A number with up to 10 digits to the left of the decimal point and 2 digits to the right of the decimal point. Please use decimal points, commas are not accepted.
 
 **Type:** array
 
@@ -2621,61 +3121,6 @@ Provide the weight of the item (not including the packaging)
 |----------|------|----------|-------------|
 | `value` | number | Yes | Provide the item weight numeric value (not including the packaging) |
 | `unit` | string | Yes | Provide unit for item weight |
-| `marketplace_id` | object | No |  |
-
-### required_product_compliance_certificate
-
-Select the regulation/restriction your product is subject to that requires a certificate such as an EO Number or Judgement Order for compliance. If your product is not subject to any of these regulations, select Not Applicable
-
-**Type:** array
-
-**Title:** Product Compliance Certificate
-
-**Required:** No
-
-**Examples:**
-
-- `California Air Resources Board (CARB), Not Applicable`
-
-**Array Items:**
-
-**Item Type:** object
-
-**Item Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `value` | string | Yes | Select the regulation/restriction your product is subject to that requires a certificate such as an EO Number or Judgement Order for compliance. If your product is not subject to any of these regulations, select Not Applicable |
-| `marketplace_id` | object | No |  |
-
-### legal_compliance_certifications
-
-Provide relevant compliance certifications for the product
-
-**Type:** array
-
-**Title:** Legal Compliance Certifications
-
-**Required:** Conditionally
-
-**Examples:**
-
-- `California Air Resources Board (CARB)`
-
-**Selectors:** `regulatory_organization_name`, `value`, `language_tag`, `marketplace_id`
-
-**Array Items:**
-
-**Item Type:** object
-
-**Item Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `regulatory_organization_name` | string | Yes | Select the applicable authority governing the regulation/restriction |
-| `certification_status` | string | Yes | If you have the required certification for compliance, select Compliant; if not, select, Non-compliant, and if not needed, select Exempt |
-| `value` | string | Yes | Provide the required certification information to indicate compliance, such as an EO Number or judgement order. If you do not have one or are Exempt, please submit "NA" |
-| `language_tag` | object | Yes |  |
 | `marketplace_id` | object | No |  |
 
 ### california_proposition_65
@@ -2761,7 +3206,7 @@ F2345G234`
 
 ### dsa_responsible_party_address
 
-Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If you’ve already submitted this Responsible Person’s information in the past, make sure you use the same email or URL.
+Provide the email address or URL for the EU Responsible Person, representing the product in compliance with EU regulations.
 
 **Type:** array
 
@@ -2781,7 +3226,7 @@ Provide the email address or URL for the EU Responsible Person to comply with th
 
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
-| `value` | string | Yes | Provide the email address or URL for the EU Responsible Person to comply with the General Product Safety Regulation (GPSR). If you’ve already submitted this Responsible Person’s information in the past, make sure you use the same email or URL. |
+| `value` | string | Yes | Provide the email address or URL for the EU Responsible Person, representing the product in compliance with EU regulations. |
 | `marketplace_id` | object | No |  |
 
 ### compliance_media
@@ -2863,6 +3308,31 @@ Provide the email address or URL of the manufacturer to comply with the EU Gener
 | `gpsr_manufacturer_email_address` | string | No | Provide the email address or URL of the manufacturer to comply with the EU General Product Safety Regulation (GPSR). If you’ve already submitted this manufacturer’s information in the past, make sure you use the same email or URL. |
 | `marketplace_id` | object | No |  |
 
+### contains_pfas
+
+Provide whether the item contains PFAS (perfluoroalkyl or polyfluoroalkyl substances), a common but complex group of synthetic chemicals.
+
+**Type:** array
+
+**Title:** Contains PFAS
+
+**Required:** No
+
+**Examples:**
+
+- `Yes`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | boolean | Yes | Provide whether the item contains PFAS (perfluoroalkyl or polyfluoroalkyl substances), a common but complex group of synthetic chemicals. |
+| `marketplace_id` | object | No |  |
+
 ### ships_globally
 
 Provide whether the item can be shipped globally by Amazon 
@@ -2896,11 +3366,13 @@ Provide the GHS chemical hazard codes for the chemical substance/mixture in orde
 
 **Title:** GHS Chemical H Code
 
-**Required:** No
+**Required:** Conditionally
 
 **Examples:**
 
 - `H200`
+
+**Selectors:** `marketplace_id`, `value`
 
 **Array Items:**
 
@@ -3163,96 +3635,6 @@ The attribute indicates the Swatch Product Image Locator of the product
 | `marketplace_id` | object | No |  |
 | `media_location` | string | Yes | The URL where an image of a color swatch from the product is located |
 
-### item_dimensions
-
-Provide the item's dimensions
-
-**Type:** array
-
-**Title:** Item Dimensions
-
-**Required:** No
-
-**Examples:**
-
-- `10 inches`
-
-**Array Items:**
-
-**Item Type:** object
-
-**Item Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `length` | object | Yes | Provide the length of the item |
-| `width` | object | Yes | Provide the width of the item |
-| `height` | object | Yes | Provide the height of the item |
-| `marketplace_id` | object | No |  |
-
-#### item_dimensions[].length
-
-Provide the length of the item
-
-**Type:** object
-
-**Title:** Item Length
-
-**Required:** No
-
-**Examples:**
-
-- `10`
-
-**Nested Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `value` | number | Yes | Provide the item length as a numeric value. |
-| `unit` | string | Yes | Select the unit of measure for Item Length. If a value is provided for Item Length, you must also enter the corresponding unit. |
-
-#### item_dimensions[].width
-
-Provide the width of the item
-
-**Type:** object
-
-**Title:** Item Width
-
-**Required:** No
-
-**Examples:**
-
-- `2`
-
-**Nested Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `value` | number | Yes | Provide the item width as a numeric value. |
-| `unit` | string | Yes | Select the unit of measure for Item Width. If a value is provided for Item Width, you must also enter the corresponding unit. |
-
-#### item_dimensions[].height
-
-Provide the height of the item
-
-**Type:** object
-
-**Title:** Item Height
-
-**Required:** No
-
-**Examples:**
-
-- `2.7 Inches`
-
-**Nested Properties:**
-
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| `value` | number | Yes | Provide the item height as a numeric value. |
-| `unit` | string | Yes | Select the unit of measure for Item Height. If a value is provided for Item Height, you must also enter the corresponding unit. |
-
 ### item_package_dimensions
 
 Provide the item's package dimensions
@@ -3367,5 +3749,77 @@ The weight in original package
 |----------|------|----------|-------------|
 | `value` | number | Yes | This attribute represents the weight of the item plus the packaging. If your item is shipped to the customer in multiple packages, enter the dimensions of the heaviest package |
 | `unit` | string | Yes | Select the unit of measure for Package Weight. If a value is provided for Package Weight, you must also enter the corresponding unit. |
+| `marketplace_id` | object | No |  |
+
+### item_display_weight
+
+Provide the item weight if the product is a solid
+
+**Type:** array
+
+**Title:** Item Display Weight
+
+**Required:** No
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | number | Yes | Provide the item weight (numeric) if the product is a solid |
+| `unit` | string | Yes | Select the corresponding unit |
+| `marketplace_id` | object | No |  |
+
+### master_pack_layers_per_pallet_quantity
+
+Provide the number of layers of master packs held on a pallet packed for storage (known as Hi).
+
+**Type:** array
+
+**Title:** Master Pack Layers per Pallet Quantity
+
+**Required:** No
+
+**Examples:**
+
+- `5`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | integer | Yes | Provide the number of layers of master packs held on a pallet packed for storage (known as Hi). |
+| `marketplace_id` | object | No |  |
+
+### master_packs_per_layer_quantity
+
+Provide the number of master packs of the product in each layer on a pallet (known as Ti).
+
+**Type:** array
+
+**Title:** Master Packs Per Layer Quantity
+
+**Required:** No
+
+**Examples:**
+
+- `9`
+
+**Array Items:**
+
+**Item Type:** object
+
+**Item Properties:**
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `value` | integer | Yes | Provide the number of master packs of the product in each layer on a pallet (known as Ti). |
 | `marketplace_id` | object | No |  |
 
